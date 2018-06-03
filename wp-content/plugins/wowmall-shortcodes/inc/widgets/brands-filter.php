@@ -29,6 +29,11 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 				'std'   => __( 'Filter by brand', 'wowmall-shortcodes' ),
 				'label' => __( 'Title', 'woocommerce' ),
 			),
+			'hide_empty' => array(
+				'type'  => 'checkbox',
+				'std'   => 0,
+				'label' => __( 'Hide empty brands', 'wowmall-shortcodes' ),
+			),
 			'query_type' => array(
 				'type'    => 'select',
 				'std'     => 'or',
@@ -45,8 +50,8 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 
 		if ( isset( $_GET['filter_brand'] ) && ! empty( $q ) ) {
 
-			foreach( $q as $key => $query ) {
-				if( isset( $query['taxonomy'] ) && 'pa_brand' === $query['taxonomy'] ) {
+			foreach ( $q as $key => $query ) {
+				if ( isset( $query['taxonomy'] ) && 'pa_brand' === $query['taxonomy'] ) {
 					$q[$key]['taxonomy'] = 'brand';
 					break;
 				}
@@ -54,6 +59,45 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 		}
 
 		return $q;
+	}
+
+	public function widget( $args, $instance ) {
+
+		if ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) ) {
+			return;
+		}
+		if ( 'brand' === $this->get_current_taxonomy() ) {
+			return;
+		}
+
+		$_chosen_attributes = WC_Query::get_layered_nav_chosen_attributes();
+		$query_type         = isset( $instance['query_type'] ) ? $instance['query_type'] : $this->settings['query_type']['std'];
+		$brands             = $this->get_brands();
+		$hide_empty         = isset( $instance['hide_empty'] ) ? $instance['hide_empty'] : $this->settings['hide_empty']['std'];
+
+		if ( empty( $brands ) ) {
+			return;
+		}
+
+		ob_start();
+
+		$this->widget_start( $args, $instance );
+
+		$found = $this->brands_list( $brands, 'pa_brand', $query_type, $hide_empty );
+
+		$this->widget_end( $args );
+
+		// Force found when option is selected - do not force found on taxonomy attributes
+		if ( ! is_tax() && is_array( $_chosen_attributes ) && array_key_exists( 'pa_brand', $_chosen_attributes ) ) {
+			$found = true;
+		}
+
+		if ( ! $found ) {
+			ob_end_clean();
+		}
+		else {
+			echo ob_get_clean();
+		}
 	}
 
 	public function get_brands() {
@@ -68,44 +112,7 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 		return get_categories( $list_args );
 	}
 
-	public function widget( $args, $instance ) {
-
-		if ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) ) {
-			return;
-		}
-		if( 'brand' === $this->get_current_taxonomy() ) {
-			return;
-		}
-
-		$_chosen_attributes = WC_Query::get_layered_nav_chosen_attributes();
-		$query_type = isset( $instance['query_type'] ) ? $instance['query_type'] : $this->settings['query_type']['std'];
-		$brands     = $this->get_brands();
-
-		if ( empty( $brands ) ) {
-			return;
-		}
-
-		ob_start();
-
-		$this->widget_start( $args, $instance );
-
-		$found = $this->layered_nav_list( $brands, 'pa_brand', $query_type );
-
-		$this->widget_end( $args );
-
-		// Force found when option is selected - do not force found on taxonomy attributes
-		if ( ! is_tax() && is_array( $_chosen_attributes ) && array_key_exists( 'pa_brand', $_chosen_attributes ) ) {
-			$found = true;
-		}
-
-		if ( ! $found ) {
-			ob_end_clean();
-		} else {
-			echo ob_get_clean();
-		}
-	}
-
-	protected function layered_nav_list( $terms, $taxonomy, $query_type ) {
+	protected function brands_list( $terms, $taxonomy, $query_type, $hide_empty ) {
 		// List display
 		echo '<ul>';
 
@@ -114,9 +121,9 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 		$found              = false;
 
 		foreach ( $terms as $term ) {
-			$current_values = isset( $_chosen_attributes[ $taxonomy ]['terms'] ) ? $_chosen_attributes[ $taxonomy ]['terms'] : array();
+			$current_values = isset( $_chosen_attributes[$taxonomy]['terms'] ) ? $_chosen_attributes[$taxonomy]['terms'] : array();
 			$option_is_set  = in_array( $term->slug, $current_values );
-			$count          = isset( $term_counts[ $term->term_id ] ) ? $term_counts[ $term->term_id ] : 0;
+			$count          = isset( $term_counts[$term->term_id] ) ? $term_counts[$term->term_id] : 0;
 
 			// Skip the term for the current archive
 			if ( $this->get_current_term_id() === $term->term_id ) {
@@ -126,27 +133,30 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 			if ( 0 < $count ) {
 				$found = true;
 			}
+			elseif ( 0 === $count && ! $option_is_set && $hide_empty ) {
+				continue;
+			}
 
 			$filter_name    = 'filter_brand';
-			$current_filter = isset( $_GET[ $filter_name ] ) ? explode( ',', wc_clean( $_GET[ $filter_name ] ) ) : array();
+			$current_filter = isset( $_GET[$filter_name] ) ? explode( ',', wc_clean( $_GET[$filter_name] ) ) : array();
 			$current_filter = array_map( 'sanitize_title', $current_filter );
 
 			if ( ! in_array( $term->slug, $current_filter ) ) {
 				$current_filter[] = $term->slug;
 			}
 
-			$link = $this->get_page_base_url( $taxonomy );
+			$link = remove_query_arg( $filter_name, $this->get_current_page_url() );
 
 			// Add current filters to URL.
 			foreach ( $current_filter as $key => $value ) {
 				// Exclude query arg for current term archive term
 				if ( $value === $this->get_current_term_slug() ) {
-					unset( $current_filter[ $key ] );
+					unset( $current_filter[$key] );
 				}
 
 				// Exclude self so filter can be unset on click.
 				if ( $option_is_set && $value === $term->slug ) {
-					unset( $current_filter[ $key ] );
+					unset( $current_filter[$key] );
 				}
 			}
 
@@ -161,7 +171,8 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 			if ( (int) $count > 0 ) {
 				$link      = esc_url( apply_filters( 'woocommerce_layered_nav_link', $link, $term, $taxonomy ) );
 				$term_html = '<a href="' . $link . '">' . esc_html( $term->name ) . '</a>';
-			} else {
+			}
+			else {
 				$link      = false;
 				$term_html = '<span>' . esc_html( $term->name ) . '</span>';
 			}
@@ -178,9 +189,67 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 		return $found;
 	}
 
+	/**
+	 * Count products within certain terms, taking the main WP query into consideration.
+	 *
+	 * @param  array  $term_ids
+	 * @param  string $taxonomy
+	 * @param  string $query_type
+	 *
+	 * @return array
+	 */
+	protected function get_filtered_term_product_counts( $term_ids, $taxonomy, $query_type ) {
+		global $wpdb;
+
+		$tax_query  = WC_Query::get_main_tax_query();
+		$meta_query = WC_Query::get_main_meta_query();
+
+		if ( 'or' === $query_type ) {
+			foreach ( $tax_query as $key => $query ) {
+				if ( is_array( $query ) && ( $taxonomy === $query['taxonomy'] || $taxonomy === 'pa_' . $query['taxonomy'] ) ) {
+					unset( $tax_query[$key] );
+				}
+			}
+		}
+
+		$meta_query     = new WP_Meta_Query( $meta_query );
+		$tax_query      = new WP_Tax_Query( $tax_query );
+		$meta_query_sql = $meta_query->get_sql( 'post', $wpdb->posts, 'ID' );
+		$tax_query_sql  = $tax_query->get_sql( $wpdb->posts, 'ID' );
+
+		// Generate query
+		$query           = array();
+		$query['select'] = "SELECT COUNT( DISTINCT {$wpdb->posts}.ID ) as term_count, terms.term_id as term_count_id";
+		$query['from']   = "FROM {$wpdb->posts}";
+		$query['join']   = "
+			INNER JOIN {$wpdb->term_relationships} AS term_relationships ON {$wpdb->posts}.ID = term_relationships.object_id
+			INNER JOIN {$wpdb->term_taxonomy} AS term_taxonomy USING( term_taxonomy_id )
+			INNER JOIN {$wpdb->terms} AS terms USING( term_id )
+			" . $tax_query_sql['join'] . $meta_query_sql['join'];
+
+		$query['where'] = "
+			WHERE {$wpdb->posts}.post_type IN ( 'product' )
+			AND {$wpdb->posts}.post_status = 'publish'
+			" . $tax_query_sql['where'] . $meta_query_sql['where'] . "
+			AND terms.term_id IN (" . implode( ',', array_map( 'absint', $term_ids ) ) . ")
+		";
+
+		if ( $search = WC_Query::get_main_search_query_sql() ) {
+			$query['where'] .= ' AND ' . $search;
+		}
+
+		$query['group_by'] = "GROUP BY terms.term_id";
+		$query             = apply_filters( 'woocommerce_get_filtered_term_product_counts_query', $query );
+		$query             = implode( ' ', $query );
+
+		$results = $wpdb->get_results( $query );
+
+		return wp_list_pluck( $results, 'term_count', 'term_count_id' );
+	}
+
 	public function woocommerce_attribute_taxonomies( $attribute_taxonomies ) {
 
-		if( ( is_admin() && ! wp_doing_ajax() ) || ! isset( $_GET['filter_brand'] ) ) {
+		if ( ( is_admin() && ! wp_doing_ajax() ) || ! isset( $_GET['filter_brand'] ) ) {
 			return $attribute_taxonomies;
 		}
 
@@ -206,62 +275,5 @@ class Wowmall_WC_Widget_Brands_Filter extends WC_Widget_Layered_Nav {
 		}
 
 		return $attribute_taxonomies;
-	}
-
-	/**
-	 * Count products within certain terms, taking the main WP query into consideration.
-	 *
-	 * @param  array  $term_ids
-	 * @param  string $taxonomy
-	 * @param  string $query_type
-	 * @return array
-	 */
-	protected function get_filtered_term_product_counts( $term_ids, $taxonomy, $query_type ) {
-		global $wpdb;
-
-		$tax_query  = WC_Query::get_main_tax_query();
-		$meta_query = WC_Query::get_main_meta_query();
-
-		if ( 'or' === $query_type ) {
-			foreach ( $tax_query as $key => $query ) {
-				if ( is_array( $query ) && ( $taxonomy === $query['taxonomy'] || $taxonomy === 'pa_' . $query['taxonomy'] ) ) {
-					unset( $tax_query[ $key ] );
-				}
-			}
-		}
-
-		$meta_query      = new WP_Meta_Query( $meta_query );
-		$tax_query       = new WP_Tax_Query( $tax_query );
-		$meta_query_sql  = $meta_query->get_sql( 'post', $wpdb->posts, 'ID' );
-		$tax_query_sql   = $tax_query->get_sql( $wpdb->posts, 'ID' );
-
-		// Generate query
-		$query           = array();
-		$query['select'] = "SELECT COUNT( DISTINCT {$wpdb->posts}.ID ) as term_count, terms.term_id as term_count_id";
-		$query['from']   = "FROM {$wpdb->posts}";
-		$query['join']   = "
-			INNER JOIN {$wpdb->term_relationships} AS term_relationships ON {$wpdb->posts}.ID = term_relationships.object_id
-			INNER JOIN {$wpdb->term_taxonomy} AS term_taxonomy USING( term_taxonomy_id )
-			INNER JOIN {$wpdb->terms} AS terms USING( term_id )
-			" . $tax_query_sql['join'] . $meta_query_sql['join'];
-
-		$query['where']   = "
-			WHERE {$wpdb->posts}.post_type IN ( 'product' )
-			AND {$wpdb->posts}.post_status = 'publish'
-			" . $tax_query_sql['where'] . $meta_query_sql['where'] . "
-			AND terms.term_id IN (" . implode( ',', array_map( 'absint', $term_ids ) ) . ")
-		";
-
-		if ( $search = WC_Query::get_main_search_query_sql() ) {
-			$query['where'] .= ' AND ' . $search;
-		}
-
-		$query['group_by'] = "GROUP BY terms.term_id";
-		$query             = apply_filters( 'woocommerce_get_filtered_term_product_counts_query', $query );
-		$query             = implode( ' ', $query );
-
-		$results           = $wpdb->get_results( $query );
-
-		return wp_list_pluck( $results, 'term_count', 'term_count_id' );
 	}
 }

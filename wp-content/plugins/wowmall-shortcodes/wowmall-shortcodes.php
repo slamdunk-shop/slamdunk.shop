@@ -3,17 +3,15 @@
  * Plugin Name: Wowmall Shortcodes
  *
  * Description: Wowmall Wordpress Theme Shortcodes plugin
- * Version: 1.2.6
+ * Version: 1.5.0
  * Requires at least: 4.6
- * Tested up to: 4.8
+ * Tested up to: 4.9
  *
  * Text Domain: wowmall-shortcodes
  * Domain Path: /languages/
  *
  */
-$theme = wp_get_theme();
-
-if ( ! class_exists( 'wowmallShortcodes' ) && ( 'Wowmall' === $theme->name || 'Wowmall Child' === $theme->name ) ) {
+if ( ! class_exists( 'wowmallShortcodes' ) ) {
 
 	class wowmallShortcodes {
 
@@ -29,7 +27,11 @@ if ( ! class_exists( 'wowmallShortcodes' ) && ( 'Wowmall' === $theme->name || 'W
 			
 			$this::$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
-			$this::$version = '1.2.6';
+			$this::$version = '1.5.0';
+
+			if( is_admin() ) {
+				include_once 'admin/admin.php';
+			}
 
 			add_action( 'init', array( $this, 'init' ), 0 );
 
@@ -38,24 +40,20 @@ if ( ! class_exists( 'wowmallShortcodes' ) && ( 'Wowmall' === $theme->name || 'W
 
 			add_action( 'wp_enqueue_scripts', array( $this, 'register_assets' ), 10 );
 
-			add_action( 'admin_enqueue_scripts', array( $this, 'register_admin_assets' ), 9 );
-
 			include_once 'inc/optimize.php';
 			include_once 'inc/slider.php';
-			require_once "inc/hooks.php";
-			require_once "inc/functions.php";
-			require_once "inc/gallery.php";
-			require_once "inc/follow.php";
-			require_once "inc/mailchimp.php";
+			require_once 'inc/hooks.php';
+			require_once 'inc/functions.php';
+			require_once 'inc/gallery.php';
+			require_once 'inc/follow.php';
+			require_once 'inc/mailchimp.php';
 			include_once 'inc/posts-carousel.php';
-			include_once 'inc/collection.php';
+			include_once 'inc/instagram.php';
 			if( $this->is_woocommerce_activated() ) {
-				require_once "inc/lookbook.php";
+				include_once 'inc/collection.php';
+				require_once 'inc/lookbook.php';
 				include_once 'inc/products-carousel.php';
 				include_once 'inc/brands.php';
-				if( is_admin() ) {
-					include_once 'inc/variations.php';
-				}
 			}
 		}
 
@@ -67,9 +65,6 @@ if ( ! class_exists( 'wowmallShortcodes' ) && ( 'Wowmall' === $theme->name || 'W
 				}
 				if( ! isset( $wowmall_options['compare_enable'] ) || $wowmall_options['compare_enable'] ) {
 					include_once 'inc/compare.php';
-				}
-				if( is_admin() ) {
-					include_once 'inc/new-products.php';
 				}
 			}
 		}
@@ -136,20 +131,6 @@ if ( ! class_exists( 'wowmallShortcodes' ) && ( 'Wowmall' === $theme->name || 'W
 			wp_localize_script( 'wowmall-lookbook-post-front', 'wowmallLookbook', array( 'ajaxurl' => admin_url( 'admin-ajax.php', is_ssl() ? 'https' : 'http' ) ) );
 		}
 
-		public function register_admin_assets() {
-
-			wp_register_style( 'wowmall-lookbook-post', $this::$pluginurl . '/assets/css/lookbook.css', array(), $this::$version );
-
-			wp_register_script( 'wowmall-color-picker', $this::$pluginurl . '/assets/js/color' . $this::$suffix . '.js', array( 'wp-color-picker' ), $this::$version, true );
-			wp_register_script( 'wowmall-lookbook-post', $this::$pluginurl . '/assets/js/lookbook.js', array( 'jquery-ui-draggable' ), $this::$version, true );
-
-			$screen    = get_current_screen();
-			$screen_id = $screen ? $screen->id : '';
-			if ( in_array( $screen_id, array( 'edit-product' ) ) ) {
-				wp_enqueue_script( 'wowmall_wc_quick-edit', $this::$pluginurl . '/assets/js/quick-edit' . $this::$suffix . '.js', array( 'woocommerce_quick-edit' ), $this::$version, true );
-			}
-		}
-
 		public function plugin_path() {
 			return untrailingslashit( plugin_dir_path( __FILE__ ) );
 		}
@@ -175,4 +156,3 @@ function wowmall_shortcodes() {
 	}
 	return null;
 }
-

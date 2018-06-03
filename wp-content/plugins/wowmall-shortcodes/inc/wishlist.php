@@ -17,10 +17,6 @@ add_action( 'woocommerce_single_product_summary', 'wowmall_wishlist_add_button',
 // add shortcode hooks
 add_shortcode( 'wowmall_wishlist_table', 'wowmall_wishlist_shortcode' );
 
-if ( is_admin() ) {
-	add_action( 'vc_before_init', 'vc_map_wowmall_wishlist' );
-}
-
 /**
  * Renders wishlist shortcode.
  * @since 1.0.0
@@ -225,7 +221,6 @@ function wowmall_wishlist_add( $id ) {
 		if ( ! empty( $list ) ) {
 
 			$list = unserialize( $list );
-
 		}
 		else {
 
@@ -430,17 +425,4 @@ function tm_woowislist_session_to_db() {
 			wowmall_wishlist_set_list( array() );
 		}
 	}
-}
-
-function vc_map_wowmall_wishlist() {
-
-	$params = array(
-		'name'                    => esc_html__( 'Wowmall Wishlist', 'wowmall-shortcodes' ),
-		'base'                    => 'wowmall_wishlist_table',
-		'description'             => esc_html__( 'Add Wishlist page shortcode', 'wowmall-shortcodes' ),
-		'category'                => esc_html__( 'Wowmall', 'wowmall-shortcodes' ),
-		'show_settings_on_create' => false,
-	);
-
-	vc_map( $params );
 }

@@ -533,9 +533,9 @@ class wowmallOptimizer {
 	}
 
 	public function optimize_wc_scripts() {
-		global $wp_scripts;
-		$queue = $wp_scripts->queue;
-		if ( ! wp_script_is( 'jquery', 'done' ) ) {
+		if ( ! wp_script_is( 'jquery-core', 'done' ) ) {
+			global $wp_scripts;
+			$queue = $wp_scripts->queue;
 			$registered = $wp_scripts->registered;
 			$all_data   = array();
 			foreach ( $queue as $script ) {
@@ -634,7 +634,6 @@ class wowmallOptimizer {
 			}
 		}
 		unset( $GLOBALS['wowmall_lazy_img'] );
-
 		return $attr;
 	}
 
