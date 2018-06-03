@@ -874,49 +874,5 @@ function wowmall_includes() {
 	if ( wowmall()->is_woocommerce_activated() ) {
 		require_once( WOWMALL_THEME_DIR . 'inc/wc-products-ajax.php' );
 	}
-	
-	add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
- 
-// Our hooked in function - $fields is passed via the filter!
-add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
-  
-function custom_override_checkout_fields( $fields ) {
-  //unset($fields['billing']['billing_first_name']);// имя
-  //unset($fields['billing']['billing_last_name']);// фамилия
-  //unset($fields['billing']['billing_company']); // компания
-  //unset($fields['billing']['billing_address_1']);//
-  //unset($fields['billing']['billing_address_2']);//
-  //unset($fields['billing']['billing_city']);
-  //unset($fields['billing']['billing_postcode']);
-  //unset($fields['billing']['billing_country']);
-  //unset($fields['billing']['billing_state']);
-  //unset($fields['billing']['billing_phone']);
-  //unset($fields['order']['order_comments']);
-  //unset($fields['billing']['billing_email']);
-  //unset($fields['account']['account_username']);
-  //unset($fields['account']['account_password']);
-  //unset($fields['account']['account_password-2']);
 
- 
-  unset($fields['billing']['billing_company']);// компания
-  unset($fields['billing']['billing_postcode']);// индекс 
-  unset($fields['billing']['billing_address_2']); //адрес строка 2
-  unset($fields['account']['account_username']);// аккаунт
-  unset($fields['billing']['billing_email']);//
-  unset($fields['account']['account_password']);//
-  unset($fields['account']['account_password-2']);//
-    return $fields;
-}
-}
-// Делаем поля необязательными
-add_filter( 'woocommerce_default_address_fields' , 'custom_override_default_address_fields' );
- 
-// Наша перехваченная функция - $fields проходит через фильтр
-function custom_override_default_address_fields( $address_fields ) {
-$address_fields['company']['required'] = false; // Адрес
-$address_fields['postcode']['required'] = false; // Индекс
-$address_fields['address_2']['required'] = false; // Населённый пункт
-$address_fields['address_1']['required'] = false; // адрес 1
- 
-return $address_fields;
 }

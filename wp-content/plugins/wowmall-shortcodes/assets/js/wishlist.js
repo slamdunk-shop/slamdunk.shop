@@ -20,7 +20,7 @@
 						wowmallParams.ajax_url,
 						{
 							action: 'wowmall_wishlist_add',
-							url   : encodeURIComponent(button.closest( '.product' ).find( '.woocommerce-LoopProduct-link' ).attr('href'))
+							url   : $(document.body).hasClass( 'single-product' ) ? encodeURIComponent(location.href) : encodeURIComponent(button.closest( '.product' ).find( '.woocommerce-LoopProduct-link' ).attr('href'))
 						},
 						function ( response ) {
 							button.removeClass( wowmallWishlistLoadingClass );

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wowmall Shortcodes\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/plugins/tm-woocommerce-package\n"
-"POT-Creation-Date: 2017-06-06 11:17+0300\n"
-"PO-Revision-Date: 2017-06-06 11:17+0300\n"
+"POT-Creation-Date: 2018-05-28 04:15+0300\n"
+"PO-Revision-Date: 2018-05-28 04:15+0300\n"
 "Last-Translator: \n"
 "Language-Team: TonyTemplates\n"
 "Language: en_US\n"
@@ -20,702 +20,776 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: inc/brands.php:121
-msgctxt "taxonomy general name"
-msgid "Brands"
-msgstr ""
-
-#: inc/brands.php:122
-msgctxt "taxonomy singular name"
-msgid "Brand"
-msgstr ""
-
-#: inc/brands.php:123
-msgid "Search Brands"
-msgstr ""
-
-#: inc/brands.php:124
-msgid "All Brands"
-msgstr ""
-
-#: inc/brands.php:125
-msgid "Edit Brand"
-msgstr ""
-
-#: inc/brands.php:126
-msgid "Update Brand"
-msgstr ""
-
-#: inc/brands.php:127
-msgid "Add New Brand"
-msgstr ""
-
-#: inc/brands.php:128
-msgid "New Brand Name"
-msgstr ""
-
-#: inc/brands.php:129
-msgid "Brands"
-msgstr ""
-
-#: inc/brands.php:189 inc/brands.php:220 inc/gallery.php:200
+#: admin/inc/brands.php:116 admin/inc/brands.php:147 admin/inc/gallery.php:111
 msgid "Choose an image"
 msgstr ""
 
-#: inc/brands.php:249 inc/brands.php:322 inc/brands.php:399 inc/gallery.php:585
-#: inc/gallery.php:637 inc/gallery.php:692
+#: admin/inc/brands.php:175 admin/inc/brands.php:248 admin/inc/brands.php:324
+#: admin/inc/gallery.php:153 admin/inc/gallery.php:205
+#: admin/inc/gallery.php:260
 msgid "Thumbnail"
 msgstr ""
 
-#: inc/brands.php:255 inc/brands.php:283 inc/brands.php:329 inc/brands.php:349
-#: inc/gallery.php:589 inc/gallery.php:645
+#: admin/inc/brands.php:181 admin/inc/brands.php:208 admin/inc/brands.php:255
+#: admin/inc/brands.php:274 admin/inc/gallery.php:157 admin/inc/gallery.php:213
 msgid "Upload/Add image"
 msgstr ""
 
-#: inc/brands.php:257 inc/brands.php:285 inc/brands.php:331 inc/brands.php:351
-#: inc/gallery.php:590 inc/gallery.php:647
+#: admin/inc/brands.php:183 admin/inc/brands.php:210 admin/inc/brands.php:257
+#: admin/inc/brands.php:276 admin/inc/gallery.php:158 admin/inc/gallery.php:215
 msgid "Remove image"
 msgstr ""
 
-#: inc/brands.php:277 inc/brands.php:341
+#: admin/inc/brands.php:202 admin/inc/brands.php:266
 msgid "Sizes table"
 msgstr ""
 
-#: inc/brands.php:382 inc/gallery.php:675 inc/gallery.php:966
+#: admin/inc/brands.php:306 admin/inc/gallery.php:243 admin/inc/gallery.php:534
 msgid "Image"
 msgstr ""
 
-#: inc/brands.php:560
+#: admin/inc/brands.php:353
 msgid "Brand"
 msgstr ""
 
-#: inc/brands.php:716 inc/brands.php:721
-msgid "Size Guide"
-msgid_plural "Size Guides: "
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/brands.php:730
+#: admin/inc/brands.php:384
 msgid "Wowmall Brands Carousel"
 msgstr ""
 
-#: inc/brands.php:732
+#: admin/inc/brands.php:386
 msgid "Add Brands Carousel shortcode"
 msgstr ""
 
-#: inc/brands.php:733 inc/collection.php:92 inc/compare.php:405
-#: inc/follow.php:37 inc/gallery.php:989 inc/lookbook.php:272
-#: inc/mailchimp.php:49 inc/posts-carousel.php:156
-#: inc/products-carousel.php:256 inc/slider.php:148 inc/slider.php:177
-#: inc/wishlist.php:441
+#: admin/inc/brands.php:387 admin/inc/collection.php:37
+#: admin/inc/compare.php:11 admin/inc/follow.php:23 admin/inc/gallery.php:557
+#: admin/inc/instagram.php:25 admin/inc/lookbook.php:176
+#: admin/inc/mailchimp.php:35 admin/inc/posts-carousel.php:40
+#: admin/inc/products-carousel.php:42 admin/inc/slider.php:40
+#: admin/inc/slider.php:69 admin/inc/wishlist.php:11
 msgid "Wowmall"
 msgstr ""
 
-#: inc/brands.php:738 inc/gallery.php:1033 inc/mailchimp.php:54
-#: inc/posts-carousel.php:161 inc/products-carousel.php:261
+#: admin/inc/brands.php:392 admin/inc/gallery.php:602
+#: admin/inc/instagram.php:30 admin/inc/mailchimp.php:40
+#: admin/inc/posts-carousel.php:45 admin/inc/products-carousel.php:47
 #: inc/widgets/brands-filter.php:30
 msgid "Title"
 msgstr ""
 
-#: inc/brands.php:744 inc/posts-carousel.php:167 inc/products-carousel.php:267
+#: admin/inc/brands.php:398 admin/inc/instagram.php:36
+#: admin/inc/posts-carousel.php:51 admin/inc/products-carousel.php:53
 msgid "Title Align"
 msgstr ""
 
-#: inc/brands.php:747 inc/posts-carousel.php:170 inc/products-carousel.php:270
+#: admin/inc/brands.php:401 admin/inc/instagram.php:39
+#: admin/inc/posts-carousel.php:54 admin/inc/products-carousel.php:56
 msgid "Left"
 msgstr ""
 
-#: inc/brands.php:748 inc/posts-carousel.php:171 inc/products-carousel.php:271
+#: admin/inc/brands.php:402 admin/inc/instagram.php:40
+#: admin/inc/posts-carousel.php:55 admin/inc/products-carousel.php:57
 msgid "Center"
 msgstr ""
 
-#: inc/brands.php:749 inc/posts-carousel.php:172 inc/products-carousel.php:272
+#: admin/inc/brands.php:403 admin/inc/instagram.php:41
+#: admin/inc/posts-carousel.php:56 admin/inc/products-carousel.php:58
 msgid "Right"
 msgstr ""
 
-#: inc/brands.php:754
+#: admin/inc/brands.php:408
 msgid "Number of products to show"
 msgstr ""
 
-#: inc/brands.php:769 inc/posts-carousel.php:221 inc/products-carousel.php:361
-#: inc/slider.php:158
+#: admin/inc/brands.php:423 admin/inc/instagram.php:90
+#: admin/inc/posts-carousel.php:105 admin/inc/products-carousel.php:159
+#: admin/inc/slider.php:50
 msgid "Extra class name"
 msgstr ""
 
-#: inc/brands.php:771 inc/posts-carousel.php:223 inc/products-carousel.php:363
-#: inc/slider.php:160
+#: admin/inc/brands.php:425 admin/inc/instagram.php:92
+#: admin/inc/posts-carousel.php:107 admin/inc/products-carousel.php:161
+#: admin/inc/slider.php:52
 msgid ""
 "Style particular content element differently - add a class name and refer to "
 "it in custom CSS."
 msgstr ""
 
-#: inc/brands.php:775 inc/posts-carousel.php:227 inc/products-carousel.php:367
-#: inc/slider.php:164
+#: admin/inc/brands.php:429 admin/inc/instagram.php:96
+#: admin/inc/posts-carousel.php:111 admin/inc/products-carousel.php:165
+#: admin/inc/slider.php:56
 msgid "Css Box"
 msgstr ""
 
-#: inc/brands.php:777 inc/posts-carousel.php:229 inc/products-carousel.php:369
-#: inc/slider.php:166
+#: admin/inc/brands.php:431 admin/inc/instagram.php:98
+#: admin/inc/posts-carousel.php:113 admin/inc/products-carousel.php:167
+#: admin/inc/slider.php:58
 msgid "Design options"
 msgstr ""
 
-#: inc/collection.php:89
+#: admin/inc/collection.php:31 admin/inc/products-carousel.php:37
+msgid "All"
+msgstr ""
+
+#: admin/inc/collection.php:34
 msgid "Wowmall Products Collection"
 msgstr ""
 
-#: inc/collection.php:91
+#: admin/inc/collection.php:36
 msgid "Add Products Collection shortcode"
 msgstr ""
 
-#: inc/compare.php:85 wowmall-shortcodes.php:118
-msgid "Add to Compare"
+#: admin/inc/collection.php:42 admin/inc/products-carousel.php:127
+msgid "Filter by Category"
 msgstr ""
 
-#: inc/compare.php:88
-msgid "Remove from Compare"
-msgstr ""
-
-#: inc/compare.php:180
-msgid "No products were added to the compare"
-msgstr ""
-
-#: inc/compare.php:307
-msgid "Description"
-msgstr ""
-
-#: inc/compare.php:308
-msgid "Availability"
-msgstr ""
-
-#: inc/compare.php:402
+#: admin/inc/compare.php:8
 msgid "Wowmall Compare"
 msgstr ""
 
-#: inc/compare.php:404
+#: admin/inc/compare.php:10
 msgid "Add Compare page shortcode"
 msgstr ""
 
-#: inc/compare.php:508 inc/wishlist.php:376
-msgid "In stock"
-msgstr ""
-
-#: inc/follow.php:34
+#: admin/inc/follow.php:20
 msgid "Wowmall Follow"
 msgstr ""
 
-#: inc/follow.php:36
+#: admin/inc/follow.php:22
 msgid "Add Social Media Profiles links anywhere"
 msgstr ""
 
-#: inc/gallery.php:222 inc/gallery.php:223
+#: admin/inc/gallery.php:144 admin/inc/gallery.php:190
+msgid "Display type"
+msgstr ""
+
+#: admin/inc/gallery.php:146 admin/inc/gallery.php:194
+msgid "Default"
+msgstr ""
+
+#: admin/inc/gallery.php:147 admin/inc/gallery.php:196
+#: admin/inc/gallery.php:587
+msgid "Images"
+msgstr ""
+
+#: admin/inc/gallery.php:148 admin/inc/gallery.php:198
+#: admin/inc/gallery.php:588
+msgid "Subcategories"
+msgstr ""
+
+#: admin/inc/gallery.php:149 admin/inc/gallery.php:200
+msgid "Both"
+msgstr ""
+
+#: admin/inc/gallery.php:522
+msgid "Sort Gallery"
+msgstr ""
+
+#: admin/inc/gallery.php:554
+msgid "Wowmall Gallery"
+msgstr ""
+
+#: admin/inc/gallery.php:556
+msgid "Set Gallery"
+msgstr ""
+
+#: admin/inc/gallery.php:561
+msgid "Gallery Layout Type"
+msgstr ""
+
+#: admin/inc/gallery.php:564
+msgid "Masonry"
+msgstr ""
+
+#: admin/inc/gallery.php:565
+msgid "Grid"
+msgstr ""
+
+#: admin/inc/gallery.php:567
+msgid "Gallery Layout Type. Grid or Masonry"
+msgstr ""
+
+#: admin/inc/gallery.php:568 admin/inc/gallery.php:579
+#: admin/inc/gallery.php:592
+msgid "Layout"
+msgstr ""
+
+#: admin/inc/gallery.php:572
+msgid "Gallery Columns"
+msgstr ""
+
+#: admin/inc/gallery.php:575 admin/inc/gallery.php:576
+#, php-format
+msgid "%s Columns"
+msgstr ""
+
+#: admin/inc/gallery.php:578
+msgid "Gallery Columns. 3 or 4"
+msgstr ""
+
+#: admin/inc/gallery.php:583
+msgid "Display Type"
+msgstr ""
+
+#: admin/inc/gallery.php:586
+msgid "Images and Subcategories"
+msgstr ""
+
+#: admin/inc/gallery.php:591
+msgid "Display Type. Can be Images, Subcategories or Both."
+msgstr ""
+
+#: admin/inc/gallery.php:596
+msgid "Order By"
+msgstr ""
+
+#: admin/inc/gallery.php:599
+msgid "Menu order"
+msgstr ""
+
+#: admin/inc/gallery.php:600 admin/inc/posts-carousel.php:90
+#: admin/inc/products-carousel.php:136
+msgid "Date"
+msgstr ""
+
+#: admin/inc/gallery.php:601
+msgid "ID"
+msgstr ""
+
+#: admin/inc/gallery.php:604
+msgid "Select order type."
+msgstr ""
+
+#: admin/inc/gallery.php:605 admin/inc/gallery.php:616
+#: admin/inc/gallery.php:624
+msgid "Ordering"
+msgstr ""
+
+#: admin/inc/gallery.php:609
+msgid "Sort Order"
+msgstr ""
+
+#: admin/inc/gallery.php:612
+msgid "Ascending"
+msgstr ""
+
+#: admin/inc/gallery.php:613
+msgid "Descending"
+msgstr ""
+
+#: admin/inc/gallery.php:615
+msgid "Select sorting order."
+msgstr ""
+
+#: admin/inc/gallery.php:620
+msgid "Posts per Page"
+msgstr ""
+
+#: admin/inc/gallery.php:623
+msgid "Leave blank to use default value. To show all posts insert \"-1\""
+msgstr ""
+
+#: admin/inc/instagram.php:22
+msgid "Wowmall Instagram"
+msgstr ""
+
+#: admin/inc/instagram.php:24
+msgid "Display Instagram Feed"
+msgstr ""
+
+#: admin/inc/instagram.php:46
+msgid "Number of rows"
+msgstr ""
+
+#: admin/inc/instagram.php:56
+msgid "Number of columns"
+msgstr ""
+
+#: admin/inc/instagram.php:65
+msgid "Search by"
+msgstr ""
+
+#: admin/inc/instagram.php:74
+msgid "Hashtag or username"
+msgstr ""
+
+#: admin/inc/instagram.php:80
+msgid "Likes"
+msgstr ""
+
+#: admin/inc/instagram.php:85
+msgid "Comments"
+msgstr ""
+
+#: admin/inc/lookbook.php:58
+msgid "Lookbook Slider"
+msgstr ""
+
+#: admin/inc/lookbook.php:79
+msgid "Select Product"
+msgstr ""
+
+#: admin/inc/lookbook.php:103 admin/inc/new-products.php:173
+msgid "Cancel"
+msgstr ""
+
+#: admin/inc/lookbook.php:105
+msgid "Ok"
+msgstr ""
+
+#: admin/inc/lookbook.php:107
+msgid "Remove"
+msgstr ""
+
+#: admin/inc/lookbook.php:173
+msgid "Wowmall LookBook"
+msgstr ""
+
+#: admin/inc/lookbook.php:175
+msgid "Set LookBook"
+msgstr ""
+
+#: admin/inc/lookbook.php:180
+msgid "LookBook Post"
+msgstr ""
+
+#: admin/inc/lookbook.php:183
+msgid "Select LookBook Post"
+msgstr ""
+
+#: admin/inc/lookbook.php:235
+msgid "Qty:"
+msgstr ""
+
+#: admin/inc/mailchimp.php:32
+msgid "Wowmall MailChimp"
+msgstr ""
+
+#: admin/inc/mailchimp.php:34
+msgid "Add MailChimp form (for footer)"
+msgstr ""
+
+#: admin/inc/mailchimp.php:46
+msgid "Pretext"
+msgstr ""
+
+#: admin/inc/mailchimp.php:52
+msgid "MailChimp Form"
+msgstr ""
+
+#: admin/inc/new-products.php:43 admin/inc/new-products.php:147
+#: admin/inc/new-products.php:188
+msgid "New"
+msgstr ""
+
+#: admin/inc/new-products.php:67
+msgid "Toggle new"
+msgstr ""
+
+#: admin/inc/new-products.php:69 admin/inc/products-carousel.php:93
+#: admin/inc/products-carousel.php:100 admin/inc/products-carousel.php:155
+msgid "Yes"
+msgstr ""
+
+#: admin/inc/new-products.php:71
+msgid "No"
+msgstr ""
+
+#: admin/inc/new-products.php:140
+msgid "Catalog visibility:"
+msgstr ""
+
+#: admin/inc/new-products.php:144
+msgid "Featured"
+msgstr ""
+
+#: admin/inc/new-products.php:151
+msgid "Edit"
+msgstr ""
+
+#: admin/inc/new-products.php:159
+msgid ""
+"Choose where this product should be displayed in your catalog. The product "
+"will always be accessible directly."
+msgstr ""
+
+#: admin/inc/new-products.php:165
+msgid "Enable this option to feature this product."
+msgstr ""
+
+#: admin/inc/new-products.php:167
+msgid "Featured product"
+msgstr ""
+
+#: admin/inc/new-products.php:168
+msgid "Enable this option to mark this as a new product."
+msgstr ""
+
+#: admin/inc/new-products.php:169
+msgid "New Product"
+msgstr ""
+
+#: admin/inc/new-products.php:172
+msgid "OK"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:37
+msgid "Wowmall Posts Carousel"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:39
+msgid "Add Posts Carousel shortcode"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:61
+msgid "Number of visible posts"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:72 admin/inc/products-carousel.php:116
+msgid "Show"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:75
+msgid "All Posts"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:76
+msgid "Featured Posts"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:81
+msgid "Exclude Post formats"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:87 admin/inc/products-carousel.php:133
+msgid "Order by"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:91 admin/inc/products-carousel.php:138
+msgid "Random"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:96 admin/inc/products-carousel.php:144
+msgid "Order"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:99 admin/inc/products-carousel.php:147
+msgid "ASC"
+msgstr ""
+
+#: admin/inc/posts-carousel.php:100 admin/inc/products-carousel.php:148
+msgid "DESC"
+msgstr ""
+
+#: admin/inc/products-carousel.php:39
+msgid "Wowmall Products Carousel"
+msgstr ""
+
+#: admin/inc/products-carousel.php:41
+msgid "Add Products Carousel shortcode"
+msgstr ""
+
+#: admin/inc/products-carousel.php:63
+msgid "Carousel Direction"
+msgstr ""
+
+#: admin/inc/products-carousel.php:66
+msgid "Horizontal"
+msgstr ""
+
+#: admin/inc/products-carousel.php:67
+msgid "Vertical"
+msgstr ""
+
+#: admin/inc/products-carousel.php:72
+msgid "Number of visible products"
+msgstr ""
+
+#: admin/inc/products-carousel.php:85
+msgid "Number of products"
+msgstr ""
+
+#: admin/inc/products-carousel.php:91
+msgid "Arrows"
+msgstr ""
+
+#: admin/inc/products-carousel.php:98
+msgid "Arrows on mobile"
+msgstr ""
+
+#: admin/inc/products-carousel.php:104
+msgid "Autoplay, in ms"
+msgstr ""
+
+#: admin/inc/products-carousel.php:110
+msgid "Autoplay on mobile devices, in ms"
+msgstr ""
+
+#: admin/inc/products-carousel.php:119
+msgid "All Products"
+msgstr ""
+
+#: admin/inc/products-carousel.php:120
+msgid "Featured Products"
+msgstr ""
+
+#: admin/inc/products-carousel.php:121
+msgid "On-sale Products"
+msgstr ""
+
+#: admin/inc/products-carousel.php:122
+msgid "New Products"
+msgstr ""
+
+#: admin/inc/products-carousel.php:137
+msgid "Price"
+msgstr ""
+
+#: admin/inc/products-carousel.php:139
+msgid "Sales"
+msgstr ""
+
+#: admin/inc/products-carousel.php:153
+msgid "Hide out of stock items"
+msgstr ""
+
+#: admin/inc/slider.php:36
+msgid "Wowmall Slider"
+msgstr ""
+
+#: admin/inc/slider.php:45
+msgid "Full window mode"
+msgstr ""
+
+#: admin/inc/slider.php:67
+msgid "Wowmall Slider Item"
+msgstr ""
+
+#: admin/inc/slider.php:74
+msgid "Slide Image"
+msgstr ""
+
+#: admin/inc/slider.php:79
+msgid "Slide Text"
+msgstr ""
+
+#: admin/inc/variations.php:51 admin/inc/variations.php:88
+#: admin/inc/variations.php:99
+msgid "Color"
+msgstr ""
+
+#: admin/inc/variations.php:54
+msgid "Size"
+msgstr ""
+
+#: admin/inc/variations.php:64
+msgid "Select terms"
+msgstr ""
+
+#: admin/inc/variations.php:78
+msgid "Select all"
+msgstr ""
+
+#: admin/inc/variations.php:79
+msgid "Select none"
+msgstr ""
+
+#: admin/inc/variations.php:80
+msgid "Add new"
+msgstr ""
+
+#: admin/inc/wishlist.php:8
+msgid "Wowmall Wishlist"
+msgstr ""
+
+#: admin/inc/wishlist.php:10
+msgid "Add Wishlist page shortcode"
+msgstr ""
+
+#: inc/brands.php:67
+msgctxt "taxonomy general name"
+msgid "Brands"
+msgstr ""
+
+#: inc/brands.php:68
+msgctxt "taxonomy singular name"
+msgid "Brand"
+msgstr ""
+
+#: inc/brands.php:69
+msgid "Search Brands"
+msgstr ""
+
+#: inc/brands.php:70
+msgid "All Brands"
+msgstr ""
+
+#: inc/brands.php:71
+msgid "Edit Brand"
+msgstr ""
+
+#: inc/brands.php:72
+msgid "Update Brand"
+msgstr ""
+
+#: inc/brands.php:73
+msgid "Add New Brand"
+msgstr ""
+
+#: inc/brands.php:74
+msgid "New Brand Name"
+msgstr ""
+
+#: inc/brands.php:75
+msgid "Brands"
+msgstr ""
+
+#: inc/brands.php:224 inc/brands.php:230
+msgid "Size Guide"
+msgid_plural "Size Guides: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/compare.php:82 wowmall-shortcodes.php:113
+msgid "Add to Compare"
+msgstr ""
+
+#: inc/compare.php:85
+msgid "Remove from Compare"
+msgstr ""
+
+#: inc/compare.php:177
+msgid "No products were added to the compare"
+msgstr ""
+
+#: inc/compare.php:304
+msgid "Description"
+msgstr ""
+
+#: inc/compare.php:305
+msgid "Availability"
+msgstr ""
+
+#: inc/compare.php:498 inc/wishlist.php:371
+msgid "In stock"
+msgstr ""
+
+#: inc/gallery.php:106 inc/gallery.php:107
 msgid "Gallery"
 msgstr ""
 
-#: inc/gallery.php:224 inc/lookbook.php:90
+#: inc/gallery.php:108 inc/lookbook.php:42
 msgid "Add New"
 msgstr ""
 
-#: inc/gallery.php:225
+#: inc/gallery.php:109
 msgid "Add New Gallery"
 msgstr ""
 
-#: inc/gallery.php:226
+#: inc/gallery.php:110
 msgid "Edit Gallery"
 msgstr ""
 
-#: inc/gallery.php:227
+#: inc/gallery.php:111
 msgid "New Gallery"
 msgstr ""
 
-#: inc/gallery.php:228
+#: inc/gallery.php:112
 msgid "View Gallery"
 msgstr ""
 
-#: inc/gallery.php:229
+#: inc/gallery.php:113
 msgid "Search Gallery"
 msgstr ""
 
-#: inc/gallery.php:230
+#: inc/gallery.php:114
 msgid "No Gallery found"
 msgstr ""
 
-#: inc/gallery.php:231
+#: inc/gallery.php:115
 msgid "No Gallery found in Trash"
 msgstr ""
 
-#: inc/gallery.php:262
+#: inc/gallery.php:146
 msgid "Search Gallery Categories"
 msgstr ""
 
-#: inc/gallery.php:263
+#: inc/gallery.php:147
 msgid "All Gallery Categories"
 msgstr ""
 
-#: inc/gallery.php:264
+#: inc/gallery.php:148
 msgid "Parent Gallery Category"
 msgstr ""
 
-#: inc/gallery.php:265
+#: inc/gallery.php:149
 msgid "Parent Gallery Category:"
 msgstr ""
 
-#: inc/gallery.php:266
+#: inc/gallery.php:150
 msgid "Edit Gallery Category"
 msgstr ""
 
-#: inc/gallery.php:267
+#: inc/gallery.php:151
 msgid "Update Gallery Category"
 msgstr ""
 
-#: inc/gallery.php:268
+#: inc/gallery.php:152
 msgid "Add New Gallery Category"
 msgstr ""
 
-#: inc/gallery.php:269
+#: inc/gallery.php:153
 msgid "New Gallery Category Name"
 msgstr ""
 
-#: inc/gallery.php:270
+#: inc/gallery.php:154
 msgid "Gallery Category"
 msgstr ""
 
-#: inc/gallery.php:399
+#: inc/gallery.php:283
 #, php-format
 msgid "%s Photo"
 msgid_plural "%s Photos"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/gallery.php:576 inc/gallery.php:622
-msgid "Display type"
+#: inc/instagram.php:49
+msgid "Enter a valid hashtag or username, please."
 msgstr ""
 
-#: inc/gallery.php:578 inc/gallery.php:626
-msgid "Default"
+#: inc/instagram.php:55
+msgid "No photos. Maybe you entered a invalid hashtag or username."
 msgstr ""
 
-#: inc/gallery.php:579 inc/gallery.php:628 inc/gallery.php:1019
-msgid "Images"
-msgstr ""
-
-#: inc/gallery.php:580 inc/gallery.php:630 inc/gallery.php:1020
-msgid "Subcategories"
-msgstr ""
-
-#: inc/gallery.php:581 inc/gallery.php:632
-msgid "Both"
-msgstr ""
-
-#: inc/gallery.php:954
-msgid "Sort Gallery"
-msgstr ""
-
-#: inc/gallery.php:986
-msgid "Wowmall Gallery"
-msgstr ""
-
-#: inc/gallery.php:988
-msgid "Set Gallery"
-msgstr ""
-
-#: inc/gallery.php:993
-msgid "Gallery Layout Type"
-msgstr ""
-
-#: inc/gallery.php:996
-msgid "Masonry"
-msgstr ""
-
-#: inc/gallery.php:997
-msgid "Grid"
-msgstr ""
-
-#: inc/gallery.php:999
-msgid "Gallery Layout Type. Grid or Masonry"
-msgstr ""
-
-#: inc/gallery.php:1000 inc/gallery.php:1011 inc/gallery.php:1023
-msgid "Layout"
-msgstr ""
-
-#: inc/gallery.php:1004
-msgid "Gallery Columns"
-msgstr ""
-
-#: inc/gallery.php:1007 inc/gallery.php:1008
-#, php-format
-msgid "%s Columns"
-msgstr ""
-
-#: inc/gallery.php:1010
-msgid "Gallery Columns. 3 or 4"
-msgstr ""
-
-#: inc/gallery.php:1015
-msgid "Display Type"
-msgstr ""
-
-#: inc/gallery.php:1018
-msgid "Images and Subcategories"
-msgstr ""
-
-#: inc/gallery.php:1022
-msgid "Display Type. Can be Images, Subcategories or Both."
-msgstr ""
-
-#: inc/gallery.php:1027
-msgid "Order By"
-msgstr ""
-
-#: inc/gallery.php:1030
-msgid "Menu order"
-msgstr ""
-
-#: inc/gallery.php:1031 inc/posts-carousel.php:206
-#: inc/products-carousel.php:344
-msgid "Date"
-msgstr ""
-
-#: inc/gallery.php:1032
-msgid "ID"
-msgstr ""
-
-#: inc/gallery.php:1035
-msgid "Select order type."
-msgstr ""
-
-#: inc/gallery.php:1036 inc/gallery.php:1047 inc/gallery.php:1055
-msgid "Ordering"
-msgstr ""
-
-#: inc/gallery.php:1040
-msgid "Sort Order"
-msgstr ""
-
-#: inc/gallery.php:1043
-msgid "Ascending"
-msgstr ""
-
-#: inc/gallery.php:1044
-msgid "Descending"
-msgstr ""
-
-#: inc/gallery.php:1046
-msgid "Select sorting order."
-msgstr ""
-
-#: inc/gallery.php:1051
-msgid "Posts per Page"
-msgstr ""
-
-#: inc/gallery.php:1054
-msgid "Leave blank to use default value. To show all posts insert \"-1\""
-msgstr ""
-
-#: inc/lookbook.php:88 inc/lookbook.php:89
+#: inc/lookbook.php:40 inc/lookbook.php:41
 msgid "Lookbook"
 msgstr ""
 
-#: inc/lookbook.php:91
+#: inc/lookbook.php:43
 msgid "Add New Lookbook"
 msgstr ""
 
-#: inc/lookbook.php:92
+#: inc/lookbook.php:44
 msgid "Edit Lookbook"
 msgstr ""
 
-#: inc/lookbook.php:93
+#: inc/lookbook.php:45
 msgid "New Lookbook"
 msgstr ""
 
-#: inc/lookbook.php:94
+#: inc/lookbook.php:46
 msgid "View Lookbook"
 msgstr ""
 
-#: inc/lookbook.php:95
+#: inc/lookbook.php:47
 msgid "Search Lookbook"
 msgstr ""
 
-#: inc/lookbook.php:96
+#: inc/lookbook.php:48
 msgid "No Lookbook found"
 msgstr ""
 
-#: inc/lookbook.php:97
+#: inc/lookbook.php:49
 msgid "No Lookbook found in Trash"
-msgstr ""
-
-#: inc/lookbook.php:121
-msgid "Lookbook Slider"
-msgstr ""
-
-#: inc/lookbook.php:142
-msgid "Select Product"
-msgstr ""
-
-#: inc/lookbook.php:166 inc/new-products.php:173
-msgid "Cancel"
-msgstr ""
-
-#: inc/lookbook.php:168
-msgid "Ok"
-msgstr ""
-
-#: inc/lookbook.php:170
-msgid "Remove"
-msgstr ""
-
-#: inc/lookbook.php:269
-msgid "Wowmall LookBook"
-msgstr ""
-
-#: inc/lookbook.php:271
-msgid "Set LookBook"
-msgstr ""
-
-#: inc/lookbook.php:276
-msgid "LookBook Post"
-msgstr ""
-
-#: inc/lookbook.php:279
-msgid "Select LookBook Post"
-msgstr ""
-
-#: inc/lookbook.php:332
-msgid "Qty:"
-msgstr ""
-
-#: inc/mailchimp.php:46
-msgid "Wowmall MailChimp"
-msgstr ""
-
-#: inc/mailchimp.php:48
-msgid "Add MailChimp form (for footer)"
-msgstr ""
-
-#: inc/mailchimp.php:60
-msgid "Pretext"
-msgstr ""
-
-#: inc/mailchimp.php:66
-msgid "MailChimp Form"
-msgstr ""
-
-#: inc/new-products.php:43 inc/new-products.php:147 inc/new-products.php:188
-msgid "New"
-msgstr ""
-
-#: inc/new-products.php:67
-msgid "Toggle new"
-msgstr ""
-
-#: inc/new-products.php:69 inc/products-carousel.php:307
-msgid "Yes"
-msgstr ""
-
-#: inc/new-products.php:71
-msgid "No"
-msgstr ""
-
-#: inc/new-products.php:140
-msgid "Catalog visibility:"
-msgstr ""
-
-#: inc/new-products.php:144
-msgid "Featured"
-msgstr ""
-
-#: inc/new-products.php:151
-msgid "Edit"
-msgstr ""
-
-#: inc/new-products.php:159
-msgid ""
-"Choose where this product should be displayed in your catalog. The product "
-"will always be accessible directly."
-msgstr ""
-
-#: inc/new-products.php:165
-msgid "Enable this option to feature this product."
-msgstr ""
-
-#: inc/new-products.php:167
-msgid "Featured product"
-msgstr ""
-
-#: inc/new-products.php:168
-msgid "Enable this option to mark this as a new product."
-msgstr ""
-
-#: inc/new-products.php:169
-msgid "New Product"
-msgstr ""
-
-#: inc/new-products.php:172
-msgid "OK"
-msgstr ""
-
-#: inc/posts-carousel.php:153
-msgid "Wowmall Posts Carousel"
-msgstr ""
-
-#: inc/posts-carousel.php:155
-msgid "Add Posts Carousel shortcode"
-msgstr ""
-
-#: inc/posts-carousel.php:177
-msgid "Number of visible posts"
-msgstr ""
-
-#: inc/posts-carousel.php:188 inc/products-carousel.php:324
-msgid "Show"
-msgstr ""
-
-#: inc/posts-carousel.php:191
-msgid "All Posts"
-msgstr ""
-
-#: inc/posts-carousel.php:192
-msgid "Featured Posts"
-msgstr ""
-
-#: inc/posts-carousel.php:197
-msgid "Exclude Post formats"
-msgstr ""
-
-#: inc/posts-carousel.php:203 inc/products-carousel.php:341
-msgid "Order by"
-msgstr ""
-
-#: inc/posts-carousel.php:207 inc/products-carousel.php:346
-msgid "Random"
-msgstr ""
-
-#: inc/posts-carousel.php:212 inc/products-carousel.php:352
-msgid "Order"
-msgstr ""
-
-#: inc/posts-carousel.php:215 inc/products-carousel.php:355
-msgid "ASC"
-msgstr ""
-
-#: inc/posts-carousel.php:216 inc/products-carousel.php:356
-msgid "DESC"
-msgstr ""
-
-#: inc/products-carousel.php:251
-msgid "All"
-msgstr ""
-
-#: inc/products-carousel.php:253
-msgid "Wowmall Products Carousel"
-msgstr ""
-
-#: inc/products-carousel.php:255
-msgid "Add Products Carousel shortcode"
-msgstr ""
-
-#: inc/products-carousel.php:277
-msgid "Carousel Direction"
-msgstr ""
-
-#: inc/products-carousel.php:280
-msgid "Horizontal"
-msgstr ""
-
-#: inc/products-carousel.php:281
-msgid "Vertical"
-msgstr ""
-
-#: inc/products-carousel.php:286
-msgid "Number of visible products"
-msgstr ""
-
-#: inc/products-carousel.php:299
-msgid "Number of products"
-msgstr ""
-
-#: inc/products-carousel.php:305
-msgid "Arrows"
-msgstr ""
-
-#: inc/products-carousel.php:312
-msgid "Autoplay, in ms"
-msgstr ""
-
-#: inc/products-carousel.php:318
-msgid "Autoplay on mobile devices, in ms"
-msgstr ""
-
-#: inc/products-carousel.php:327
-msgid "All Products"
-msgstr ""
-
-#: inc/products-carousel.php:328
-msgid "Featured Products"
-msgstr ""
-
-#: inc/products-carousel.php:329
-msgid "On-sale Products"
-msgstr ""
-
-#: inc/products-carousel.php:330
-msgid "New Products"
-msgstr ""
-
-#: inc/products-carousel.php:335
-msgid "Filter by Category"
-msgstr ""
-
-#: inc/products-carousel.php:345
-msgid "Price"
-msgstr ""
-
-#: inc/products-carousel.php:347
-msgid "Sales"
-msgstr ""
-
-#: inc/slider.php:144
-msgid "Wowmall Slider"
-msgstr ""
-
-#: inc/slider.php:153
-msgid "Full window mode"
-msgstr ""
-
-#: inc/slider.php:175
-msgid "Wowmall Slider Item"
-msgstr ""
-
-#: inc/slider.php:182
-msgid "Slide Image"
-msgstr ""
-
-#: inc/slider.php:187
-msgid "Slide Text"
-msgstr ""
-
-#: inc/variations.php:32 inc/variations.php:65 inc/variations.php:76
-msgid "Color"
-msgstr ""
-
-#: inc/variations.php:33
-msgid "Size"
-msgstr ""
-
-#: inc/variations.php:41
-msgid "Select terms"
-msgstr ""
-
-#: inc/variations.php:55
-msgid "Select all"
-msgstr ""
-
-#: inc/variations.php:56
-msgid "Select none"
-msgstr ""
-
-#: inc/variations.php:57
-msgid "Add new"
 msgstr ""
 
 #: inc/widgets/brands-filter.php:18
@@ -731,14 +805,18 @@ msgid "Filter by brand"
 msgstr ""
 
 #: inc/widgets/brands-filter.php:35
+msgid "Hide empty brands"
+msgstr ""
+
+#: inc/widgets/brands-filter.php:40
 msgid "Query type"
 msgstr ""
 
-#: inc/widgets/brands-filter.php:37
+#: inc/widgets/brands-filter.php:42
 msgid "AND"
 msgstr ""
 
-#: inc/widgets/brands-filter.php:38
+#: inc/widgets/brands-filter.php:43
 msgid "OR"
 msgstr ""
 
@@ -764,26 +842,18 @@ msgstr ""
 msgid "Rated %s out of 5"
 msgstr ""
 
-#: inc/wishlist.php:56 wowmall-shortcodes.php:126
+#: inc/wishlist.php:52 wowmall-shortcodes.php:121
 msgid "Add to Wishlist"
 msgstr ""
 
-#: inc/wishlist.php:60 wowmall-shortcodes.php:127
+#: inc/wishlist.php:56 wowmall-shortcodes.php:122
 msgid "Added to Wishlist"
 msgstr ""
 
-#: inc/wishlist.php:190
+#: inc/wishlist.php:186
 msgid "No products were added to the wishlist"
 msgstr ""
 
-#: inc/wishlist.php:438
-msgid "Wowmall Wishlist"
-msgstr ""
-
-#: inc/wishlist.php:440
-msgid "Add Wishlist page shortcode"
-msgstr ""
-
-#: wowmall-shortcodes.php:119
+#: wowmall-shortcodes.php:114
 msgid "Remove from Compare List"
 msgstr ""

@@ -34,9 +34,6 @@ add_filter( 'wowmall_compare_item_attributes', 'wowmall_compare_item_attributes'
 
 // add shortcode hooks
 add_shortcode( 'wowmall_compare_table', 'wowmall_compare_shortcode' );
-if ( is_admin() ) {
-	add_action( 'vc_before_init', 'vc_map_wowmall_compare' );
-}
 
 /**
  * Renders compare list shortcode.
@@ -226,7 +223,7 @@ function wowmall_compare_remove( $id ) {
 	}
 
 	if ( false !== ( $key = array_search( $id, $list ) ) ) {
-		unset( $list[$key] );
+		unset( $list[ $key ] );
 
 		return wowmall_compare_set_list( $list );
 	}
@@ -313,6 +310,11 @@ function wowmall_compare_list_render_table() {
 	if ( is_array( $structure ) && ! empty( $structure ) ) {
 		$html[] = '<table class="wowmall-compare-table tablesaw" data-tablesaw-mode="swipe">';
 		$first  = key( $structure );
+		next( $structure );
+		$second = key( $structure );
+		end( $structure );
+		$last = key( $structure );
+		reset( $structure );
 		foreach ( $structure as $th => $td ) {
 			if ( is_string( $td ) && 'attributes' === $td ) {
 				$html[] = apply_filters( 'wowmall_compare_item_attributes', $products );
@@ -321,7 +323,7 @@ function wowmall_compare_list_render_table() {
 				if ( $th === $first ) {
 					$html[] = '<thead>';
 				}
-				else {
+				else if ( $th === $second ) {
 					$html[] = '<tbody>';
 				}
 				$html[] = '<tr class="wowmall-compare-row">';
@@ -384,7 +386,9 @@ function wowmall_compare_list_render_table() {
 					$html[] = '</thead>';
 				}
 				else {
-					$html[] = '</tbody>';
+					if ( $th === $last ) {
+						$html[] = '</tbody>';
+					}
 				}
 			}
 		}
@@ -394,20 +398,6 @@ function wowmall_compare_list_render_table() {
 	unset( $GLOBALS['wowmall_product_in_compare'] );
 
 	return join( "\n", $html );
-}
-
-function vc_map_wowmall_compare() {
-
-	$params = array(
-		'name'                    => esc_html__( 'Wowmall Compare', 'wowmall-shortcodes' ),
-		'base'                    => 'wowmall_compare_table',
-		'description'             => esc_html__( 'Add Compare page shortcode', 'wowmall-shortcodes' ),
-		'category'                => esc_html__( 'Wowmall', 'wowmall-shortcodes' ),
-		'weight'                  => -999,
-		'show_settings_on_create' => false,
-	);
-
-	vc_map( $params );
 }
 
 if ( ! function_exists( 'wowmall_compare_item_remove_button' ) ) {
@@ -536,11 +526,11 @@ if ( ! function_exists( 'wowmall_compare_item_attributes' ) ) {
 
 					$attr = $attribute['is_taxonomy'] ? wc_get_product_terms( $product->get_id(), $attribute['name'], array( 'fields' => 'names' ) ) : array_map( 'trim', explode( WC_DELIMITER, $attribute['value'] ) );
 
-					$product_attributes[$product->get_id()][wc_attribute_label( $attribute['name'] )] = apply_filters( 'woocommerce_attribute', wpautop( wptexturize( implode( ', ', $attr ) ) ), $attribute, $attr );
+					$product_attributes[ $product->get_id() ][ wc_attribute_label( $attribute['name'] ) ] = apply_filters( 'woocommerce_attribute', wpautop( wptexturize( implode( ', ', $attr ) ) ), $attribute, $attr );
 				}
 			}
 			else {
-				$product_attributes[$product->get_id()] = array();
+				$product_attributes[ $product->get_id() ] = array();
 			}
 		}
 		$rebuilded_attributes = array();
@@ -549,7 +539,7 @@ if ( ! function_exists( 'wowmall_compare_item_attributes' ) ) {
 
 			foreach ( $attribute as $attr_name => $attribute_value ) {
 
-				$rebuilded_attributes[$attr_name][$id] = $attribute_value;
+				$rebuilded_attributes[ $attr_name ][ $id ] = $attribute_value;
 			}
 		}
 		foreach ( $rebuilded_attributes as $attr_name => $attr_products ) {
@@ -558,7 +548,7 @@ if ( ! function_exists( 'wowmall_compare_item_attributes' ) ) {
 
 				if ( ! array_key_exists( $id, $attr_products ) ) {
 
-					$rebuilded_attributes[$attr_name][$id] = '&#8212;';
+					$rebuilded_attributes[ $attr_name ][ $id ] = '&#8212;';
 				}
 			}
 		}
@@ -580,7 +570,7 @@ if ( ! function_exists( 'wowmall_compare_item_attributes' ) ) {
 					continue;
 				}
 				$html[] = '<td class="wowmall-compare-cell">';
-				$html[] = $attributes[$product->get_id()];
+				$html[] = $attributes[ $product->get_id() ];
 				$html[] = '</td>';
 			}
 			wp_reset_query();

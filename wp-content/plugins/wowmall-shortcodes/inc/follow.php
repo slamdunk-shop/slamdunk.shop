@@ -12,12 +12,6 @@ if ( ! class_exists( 'wowmallFollow' ) ) {
 				$this,
 				'shortcode',
 			) );
-			if( is_admin() ) {
-				add_action( 'vc_before_init', array(
-					$this,
-					'vc_map',
-				) );
-			}
 		}
 
 		public function shortcode() {
@@ -26,20 +20,6 @@ if ( ! class_exists( 'wowmallFollow' ) ) {
 				wowmall_social_nav();
 			}
 			return ob_get_clean();
-		}
-
-		public function vc_map() {
-
-			$params = array(
-				'name'        => esc_html__( 'Wowmall Follow', 'wowmall-shortcodes' ),
-				'base'        => 'wowmall_follow',
-				'description' => esc_html__( 'Add Social Media Profiles links anywhere', 'wowmall-shortcodes' ),
-				'category'    => esc_html__( 'Wowmall', 'wowmall-shortcodes' ),
-				'weight' => -999,
-				'show_settings_on_create' => false,
-			);
-
-			vc_map( $params );
 		}
 
 		public static function instance() {
