@@ -101,8 +101,6 @@ Thumbs.db
 
 # track these mu-plugins, plugins, and themes
 # # add your own entries here
-!wp-content/plugins/wowmall-shortcodes
-!wp-content/plugins/wowmall-icon-importer
 !wp-content/themes/wowmall
 !wp-content/themes/*-child
 !wp-content/languages
