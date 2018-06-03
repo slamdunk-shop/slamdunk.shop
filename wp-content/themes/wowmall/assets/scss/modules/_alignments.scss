@@ -1,0 +1,18 @@
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px !important;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 10px !important;
+}
+
+.aligncenter {
+	clear: both;
+	@include center-block;
+}

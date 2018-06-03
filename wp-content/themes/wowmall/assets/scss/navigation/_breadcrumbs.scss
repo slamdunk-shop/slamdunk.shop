@@ -1,0 +1,43 @@
+.site-breadcrumb {
+	border-top: 1px solid rgba(0,0,0,.08);
+	background-clip: border-box;
+	font-size: 0.7777777777777778rem;
+	line-height: 1.428571428571429;
+	padding: 4px 0 6px;
+	margin: 0 0 27px;
+	span[class*=myfont-] {
+		color: #a3a3a3;
+		font-size: 0.6666666666666667rem;
+		&:before {
+			margin: 0;
+		}
+	}
+	.separator {
+		opacity: .25;
+		padding: 0 3px;
+	}
+	a {
+		color: inherit;
+	}
+	.error404 & {
+		margin: 0;
+	}
+	.breadcrumbs-inner {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.container {
+		@include media-breakpoint-down(xs){
+			padding: 0 18px;
+		}
+	}
+	body.single-product & {
+		margin-bottom: 81px;
+	}
+	body.single-product.mobile & {
+		@include media-breakpoint-down(xs) {
+			margin-bottom: 0;
+		}
+	}
+}

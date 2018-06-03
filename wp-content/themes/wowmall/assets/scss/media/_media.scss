@@ -1,0 +1,40 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+	:not(.swiper-wrapper) > & {
+		&.swiper-lazy.swiper-lazy-loaded,
+		&[data-wowmall-lazy="swiper-lazy"].swiper-lazy-loaded {
+			animation: lazy .3s ease;
+		}
+	}
+}
+
+@keyframes lazy {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+@import "captions";

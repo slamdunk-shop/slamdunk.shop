@@ -1,0 +1,20 @@
+.wowmall-wishlist {
+	margin-bottom: 55px;
+}
+
+.wowmall-wishlist-empty {
+	background: url(assets/images/empty-wishlist.png) 50% 0 no-repeat;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.444444444444444rem;
+	font-weight: 700;
+	letter-spacing: .055em;
+	padding: 210px 0 0;
+	margin-bottom: 65px;
+}
+
+.entry-content table {
+	.wowmall-wishlist-item td {
+		padding: 40px 0;
+	}
+}

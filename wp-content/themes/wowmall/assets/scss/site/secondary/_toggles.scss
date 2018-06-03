@@ -1,0 +1,51 @@
+.vc_toggle {
+	margin-bottom: 27px;
+}
+
+.vc_toggle_size_md.vc_toggle_default {
+	.vc_toggle_title,
+	.vc_toggle_content {
+		padding-left: 32px;
+	}
+	.vc_toggle_title {
+		.vc_toggle_icon {
+			width: auto;
+			height: auto;
+			background: none;
+			border: none;
+			margin: 0;
+			font-style: normal;
+			font-size: .7777777777777778rem;
+			&:before {
+				width: auto;
+				height: auto;
+				background: none;
+				border: none;
+				margin: 0;
+				content: '\e808';
+				font-family: 'myfont';
+				left: 0;
+				transform: none;
+				line-height: 0;
+				transition: transform .3s ease;
+			}
+			&:after {
+				content: none;
+			}
+		}
+	}
+	&.vc_toggle_active {
+		.vc_toggle_title {
+			.vc_toggle_icon {
+				&:before {
+					transform: rotate(90deg);
+					visibility: visible;
+				}
+			}
+		}
+	}
+	.vc_toggle_content {
+		margin-top: 4px;
+		margin-bottom: -13px;
+	}
+}

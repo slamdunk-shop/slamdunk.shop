@@ -1,0 +1,7 @@
+.tab-content>.tab-pane {
+	position: absolute;
+	top: -9999px;
+}
+.tab-content>.active {
+	position: static;
+}

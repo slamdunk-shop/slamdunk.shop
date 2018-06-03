@@ -1,0 +1,174 @@
+/*!
+Theme Name: Wowmall
+Theme URI: http://wowmall.tonytemplates.com/
+Author: Etheme
+Author URI: https://themeforest.net/user/etheme/portfolio
+Description: Powerfull WordPress WooCommerce theme
+Version: 1.5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wowmall
+Tags: one-column, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, theme-options
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Wowmall is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+
+--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Grid
+# Visibility
+# Typography
+	## Headings
+	## Copy
+# Elements
+	## Lists
+	## Tables
+# Forms
+	## Buttons
+	## Fields
+# Navigation
+	## Links
+	## Menus
+	## Breadcrumbs
+	## Pagination
+	## Share
+	## Posts navigation
+	## Social Media Profiles
+	## Tabs
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+    ## Contacts page
+    ## Header
+    ## Footer
+	## Asides
+	## Comments
+	## 404
+	## Sitemap
+# Progress Bars
+# Toggles
+# Accordion
+# Tabs
+# WooCommerce
+	## Loop
+	## Widgets
+	## Messages
+	## Wishlist
+	## Compare
+# Gallery
+# Media
+	## Captions
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "bootstrap/bootstrap-grid";
+
+/*--------------------------------------------------------------
+# Visibility
+--------------------------------------------------------------*/
+@import "bootstrap/utilities/visibility";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Animation
+--------------------------------------------------------------*/
+@import "bootstrap/animation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Progress Bars
+--------------------------------------------------------------*/
+@import "site/secondary/progress-bars";
+
+/*--------------------------------------------------------------
+# Toggles
+--------------------------------------------------------------*/
+@import "site/secondary/toggles";
+
+/*--------------------------------------------------------------
+# Accordion
+--------------------------------------------------------------*/
+@import "site/secondary/accordion";
+
+/*--------------------------------------------------------------
+# Tabs
+--------------------------------------------------------------*/
+@import "site/secondary/tabs";
+
+/*--------------------------------------------------------------
+# WooCommerce
+--------------------------------------------------------------*/
+@import "woo/woo";
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+@import "gallery/gallery";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";

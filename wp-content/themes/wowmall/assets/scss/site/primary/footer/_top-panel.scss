@@ -1,0 +1,136 @@
+#footer-top-panel {
+	padding: 0 15px;
+	overflow: hidden;
+	@include media-breakpoint-up(md) {
+		padding: 0 60px;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: inherit;
+	}
+	.footer-top-panel-row {
+		@include media-breakpoint-up( lg ) {
+			display: flex;
+			align-items: center;
+		}
+		> div {
+			margin: 17px 0 16px;
+			&.social-media-profiles-menu {
+				margin-bottom: 11px;
+			}
+		}
+		.wowmall-newsletter {
+			@include media-breakpoint-up( lg ) {
+				align-items: center;
+				justify-content: space-between;
+				margin-right: 29px;
+				display: flex;
+				flex: 1 1 auto;
+				h4 {
+					margin: 0 13px 0 0;
+				}
+			}
+		}
+		.social-media-profiles-menu {
+			margin-right: -5px;
+			flex-wrap: nowrap;
+		}
+		.mc4wp-form {
+			margin: 0;
+			flex: 1 0 auto;
+			position: relative;
+			overflow: hidden;
+			&:not(.mc4wp-form-error) {
+				.subscribe-mail-input {
+					input {
+						background-color: #fff;
+						border-color: #fff;
+					}
+				}
+			}
+			.mc4wp-error,
+			.mc4wp-success,
+			.mc4wp-notice {
+				@include media-breakpoint-up( md ) {
+					color: inherit;
+				}
+			}
+			.mc4wp-form-fields + .mc4wp-response {
+				.mc4wp-error,
+				.mc4wp-success,
+				.mc4wp-notice {
+					@include media-breakpoint-down( sm ) {
+						color: inherit;
+					}
+					@include media-breakpoint-up( md ) {
+						position: absolute;
+						left: 0;
+						top: -9999px;
+						right: 0;
+						height: 100%;
+						background: #fff;
+						padding: 0 10px;
+						display: flex;
+						align-items: center;
+						animation: wowmall-hide-message 2.5s ease;
+						opacity: 0;
+					}
+				}
+			}
+		}
+		.mc4wp-form-fields {
+			@include media-breakpoint-up( xl ) {
+				display: flex;
+			}
+			.subscribe-mail-input {
+				@include media-breakpoint-up( xl ) {
+					min-width: 250px;
+					margin-right: 3px;
+					margin-bottom: 0;
+					flex: 1 1 auto;
+					display: flex;
+				}
+				@include media-breakpoint-up( md ) {
+					input {
+						min-width: 180px;
+					}
+				}
+			}
+			.btn {
+				@include media-breakpoint-up( xl ) {
+					margin: 0;
+				}
+			}
+		}
+		.wowmall-mc4wp-form-widget-pretext {
+			margin: 0 30px 0 0;
+			display: none;
+			@include media-breakpoint-up( xl ) {
+				display: block;
+			}
+		}
+	}
+}
+
+@keyframes wowmall-hide-message {
+	0% {
+		top: 0;
+		opacity: 1;
+	}
+	80% {
+		top: 0;
+		opacity: 1;
+	}
+	99% {
+		top: 0;
+		opacity: 0;
+	}
+	100% {
+		top: -9999px;
+		opacity: 0;
+	}
+}

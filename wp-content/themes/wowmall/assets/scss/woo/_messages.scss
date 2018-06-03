@@ -1,0 +1,130 @@
+.woocommerce- {
+	&error,
+	&info,
+	&message {
+		border: none;
+		padding: 15px 15px 15px 57px !important;
+		font-weight: 700;
+		box-shadow: 3px 4px 21px rgba(#000,.16);
+		min-height: 60px;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		@include media-breakpoint-down(sm) {
+			flex-wrap: wrap;
+		}
+		&:before {
+			color: inherit;
+			font-family: 'myfont';
+			font-weight: 400;
+			font-size: 1.333333333333333rem;
+			top: 50%;
+			left: 20px;
+			line-height: 0;
+			@include media-breakpoint-down(lg) {
+				z-index: 2;
+			}
+		}
+		.wc-forward {
+			float: right;
+			color: inherit;
+		}
+		.woocommerce-message-inner {
+			flex: 1 1 auto;
+			padding: 7px 20px 7px 0;
+			position: relative;
+			z-index: 2;
+			&-added {
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				img {
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					width: auto;
+					height: 100%;
+					@include media-breakpoint-down(lg) {
+						display: none;
+					}
+				}
+				&.without_image {
+					&:before {
+						position: absolute;
+						color: inherit;
+						font-family: 'myfont';
+						font-weight: 400;
+						font-size: 1.333333333333333rem;
+						top: 50%;
+						left: 20px;
+						line-height: 0;
+						content: '\e867';
+						@include media-breakpoint-down(lg) {
+							z-index: 2;
+						}
+					}
+				}
+				&:not(.without_image) {
+					& + .woocommerce-message-inner {
+						@include media-breakpoint-up(xl) {
+							padding-left: 15px;
+						}
+					}
+				}
+			}
+		}
+		.btn {
+			white-space: nowrap;
+			position: relative;
+			z-index: 2;
+		}
+	}
+
+	&message {
+		background: #89c44a;
+		&:before {
+			content: '\e867';
+		}
+	}
+
+	&error {
+		background: #de2e2e;
+		&:before {
+			content: '\e86a';
+		}
+		li {
+			&:before {
+				.entry-content & {
+					content: none;
+				}
+			}
+		}
+		>li {
+			width: 100%;
+		}
+		a:not([class]),
+		a.wc-backward {
+			color: inherit;
+			text-decoration: underline;
+			&:hover {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&info {
+		background: #fff;
+		color: inherit;
+		&:before {
+			content: '\e92d';
+		}
+	}
+}
+
+ul.woocommerce-error {
+	flex-wrap: wrap;
+}

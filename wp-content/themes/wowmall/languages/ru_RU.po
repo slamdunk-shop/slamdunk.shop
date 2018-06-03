@@ -1,0 +1,3153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wowmall\n"
+"POT-Creation-Date: 2017-05-08 13:10+0800\n"
+"PO-Revision-Date: 2017-05-23 20:48+0800\n"
+"Language-Team: TonyTemplates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: 404.php:19
+msgid "404"
+msgstr "Ошибка 404"
+
+#: 404.php:20
+msgid "That page can&rsquo;t be found."
+msgstr "Эта страница не найдена."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Ничего не найдено. Попробуете воспользоваться поиском?"
+
+#: admin/admin-init.php:30 admin/admin-init.php:46
+msgid "Thumb Size for Collection Page"
+msgstr "Размер миниатюры для Коллекций"
+
+#: admin/admin-init.php:32 admin/admin-init.php:50
+msgid "1x1"
+msgstr ""
+
+#: admin/admin-init.php:33 admin/admin-init.php:51
+msgid "1x2"
+msgstr ""
+
+#: admin/admin-init.php:34 admin/admin-init.php:52
+msgid "2x1"
+msgstr ""
+
+#: admin/admin-init.php:35 admin/admin-init.php:53
+msgid "2x2"
+msgstr ""
+
+#: admin/admin-init.php:68
+msgid "Collection Size"
+msgstr "Размер коллекции"
+
+#: admin/admin-init.php:109 inc/widgets/class-wp-widget-about.php:34
+msgid "Choose image"
+msgstr "Выбрать изображение"
+
+#: admin/admin-init.php:145 inc/woo/functions.php:526 inc/woo/functions.php:577
+msgid "Video"
+msgstr "Видео"
+
+#: admin/admin-init.php:163
+msgid "Video url"
+msgstr "Ссылка на видео URL"
+
+#: admin/nav-menu-walker.php:52
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Некорректно)"
+
+#: admin/nav-menu-walker.php:56
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Ожидайте)"
+
+#: admin/nav-menu-walker.php:71
+msgid "sub item"
+msgstr "подкатегория"
+
+#: admin/nav-menu-walker.php:81
+msgid "Move up"
+msgstr "Вверх"
+
+#: admin/nav-menu-walker.php:88
+msgid "Move down"
+msgstr "Вниз"
+
+#: admin/nav-menu-walker.php:93
+msgid "Edit menu item"
+msgstr "Редактировать меню товара"
+
+#: admin/nav-menu-walker.php:93 inc/template-tags.php:873
+#: woocommerce/myaccount/my-address.php:51
+msgid "Edit"
+msgstr "Редактировать"
+
+#: admin/nav-menu-walker.php:102
+msgid "URL"
+msgstr ""
+
+#: admin/nav-menu-walker.php:111
+msgid "Navigation Label"
+msgstr "Метка навигации"
+
+#: admin/nav-menu-walker.php:119
+msgid "Title Attribute"
+msgstr "Атрибут заголовка"
+
+#: admin/nav-menu-walker.php:130
+msgid "Open link in a new tab"
+msgstr "Открыть ссылку в новой вкладке"
+
+#: admin/nav-menu-walker.php:135
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: admin/nav-menu-walker.php:143
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: admin/nav-menu-walker.php:151
+msgid "Description"
+msgstr "Описание"
+
+#: admin/nav-menu-walker.php:156
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: admin/nav-menu-walker.php:176
+msgid "Enable Megamenu"
+msgstr ""
+
+#: admin/nav-menu-walker.php:183
+msgid "Megamenu Submenu Page Content"
+msgstr ""
+
+#: admin/nav-menu-walker.php:187
+msgid "Select Page"
+msgstr "Выберите страницу"
+
+#: admin/nav-menu-walker.php:200
+msgid "Move"
+msgstr "Переместить"
+
+#: admin/nav-menu-walker.php:202
+msgid "Up one"
+msgstr "Вверх"
+
+#: admin/nav-menu-walker.php:204
+msgid "Down one"
+msgstr "Вниз"
+
+#: admin/nav-menu-walker.php:208
+msgid "To the top"
+msgstr "В самый верх"
+
+#: admin/nav-menu-walker.php:214
+#, php-format
+msgid "Original: %s"
+msgstr "Оригинал: %s"
+
+#: admin/nav-menu-walker.php:221
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/nav-menu-walker.php:228 woocommerce/myaccount/orders.php:78
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/options-init.php:29 admin/options-init.php:33
+msgid "Wowmall Options"
+msgstr ""
+
+#: admin/options-init.php:85
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: admin/options-init.php:93
+msgid "Display preloader before page load"
+msgstr ""
+
+#: admin/options-init.php:94
+msgid "Enable or Disable site preloader"
+msgstr ""
+
+#: admin/options-init.php:96 admin/options-init.php:105
+#: admin/options-init.php:124 admin/options-init.php:133
+#: admin/options-init.php:142 admin/options-init.php:150
+#: admin/options-init.php:343 admin/options-init.php:359
+#: admin/options-init.php:375 admin/options-init.php:384
+#: admin/options-init.php:393 admin/options-init.php:402
+#: admin/options-init.php:411 admin/options-init.php:938
+#: admin/options-init.php:947 admin/options-init.php:1069
+#: admin/options-init.php:1077 admin/options-init.php:1085
+#: admin/options-init.php:1282 admin/options-init.php:1291
+#: admin/options-init.php:1300 admin/options-init.php:1309
+#: admin/options-init.php:1327 admin/options-init.php:1348
+#: admin/options-init.php:1356 admin/options-init.php:1485
+#: admin/options-init.php:1504
+msgid "Enable"
+msgstr "Включить"
+
+#: admin/options-init.php:97 admin/options-init.php:106
+#: admin/options-init.php:125 admin/options-init.php:134
+#: admin/options-init.php:143 admin/options-init.php:151
+#: admin/options-init.php:344 admin/options-init.php:360
+#: admin/options-init.php:376 admin/options-init.php:385
+#: admin/options-init.php:394 admin/options-init.php:403
+#: admin/options-init.php:412 admin/options-init.php:939
+#: admin/options-init.php:948 admin/options-init.php:1070
+#: admin/options-init.php:1078 admin/options-init.php:1086
+#: admin/options-init.php:1283 admin/options-init.php:1292
+#: admin/options-init.php:1301 admin/options-init.php:1310
+#: admin/options-init.php:1328 admin/options-init.php:1349
+#: admin/options-init.php:1357 admin/options-init.php:1486
+#: admin/options-init.php:1505
+msgid "Disable"
+msgstr "Отключить"
+
+#: admin/options-init.php:102
+msgid "Images Lazy Loading"
+msgstr ""
+
+#: admin/options-init.php:103
+msgid "Enable or Disable lazy loading on images"
+msgstr ""
+
+#: admin/options-init.php:112 admin/options-init.php:1627
+msgid "Add/Upload background using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:113
+msgid "404 Page background"
+msgstr ""
+
+#: admin/options-init.php:121
+msgid "Overwrite options from url"
+msgstr ""
+
+#: admin/options-init.php:122
+msgid ""
+"Enable or Disable overwrite theme options from url query string. Not "
+"recommend for real sites."
+msgstr ""
+
+#: admin/options-init.php:130
+msgid "Optimize scripts & styles"
+msgstr ""
+
+#: admin/options-init.php:131
+msgid ""
+"Enable or Disable site optimisation. Work better with W3 Total Cache Plugin"
+msgstr ""
+
+#: admin/options-init.php:139
+msgid "CDN for 3rd party scripts & styles"
+msgstr ""
+
+#: admin/options-init.php:140
+msgid ""
+"Enable or Disable CDN for 3rd party scripts & styles. Unnecessary if you are "
+"using W3 Total Cache Plugin minification"
+msgstr ""
+
+#: admin/options-init.php:148
+msgid "Remove WordPress emoji"
+msgstr ""
+
+#: admin/options-init.php:156
+msgid "Color Settings"
+msgstr "Настройки цвета"
+
+#: admin/options-init.php:164
+msgid "Accent color (1)"
+msgstr ""
+
+#: admin/options-init.php:180
+msgid "Accent color (2)"
+msgstr ""
+
+#: admin/options-init.php:194
+msgid "Link color"
+msgstr "Цвет ссылки"
+
+#: admin/options-init.php:208
+msgid "Header Settings"
+msgstr ""
+
+#: admin/options-init.php:210
+msgid "All header settings"
+msgstr ""
+
+#: admin/options-init.php:218
+msgid "Add/Upload logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:219
+msgid "Site Logo"
+msgstr ""
+
+#: admin/options-init.php:228
+msgid "Add/Upload retina 2x logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:229
+msgid "Site Retina 2x Logo"
+msgstr ""
+
+#: admin/options-init.php:238
+msgid "Add/Upload retina 3x logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:239
+msgid "Site Retina 3x Logo"
+msgstr ""
+
+#: admin/options-init.php:248
+msgid "Add/Upload alternative logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:249
+msgid "Site Alternative Logo"
+msgstr ""
+
+#: admin/options-init.php:258
+msgid ""
+"Add/Upload alternative retina 2x logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:259
+msgid "Site Alternative Retina 2x Logo"
+msgstr ""
+
+#: admin/options-init.php:268
+msgid ""
+"Add/Upload alternative retina 3x logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:269
+msgid "Site Alternative Retina 3x Logo"
+msgstr ""
+
+#: admin/options-init.php:278
+msgid "Add/Upload logo for mobile devices using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:279
+msgid "Site Logo for Mobile"
+msgstr ""
+
+#: admin/options-init.php:288
+msgid ""
+"Add/Upload retina 2x logo for mobile devices using the WordPress native "
+"uploader"
+msgstr ""
+
+#: admin/options-init.php:289
+msgid "Site Retina 2x Logo for Mobile"
+msgstr ""
+
+#: admin/options-init.php:298
+msgid ""
+"Add/Upload retina 3x logo for mobile devices using the WordPress native "
+"uploader"
+msgstr ""
+
+#: admin/options-init.php:299
+msgid "Site Retina 3x Logo for Mobile"
+msgstr ""
+
+#: admin/options-init.php:307
+msgid "Site Header"
+msgstr ""
+
+#: admin/options-init.php:308
+msgid "Select which type of header you want to show"
+msgstr ""
+
+#: admin/options-init.php:340
+msgid "Display Compare on header"
+msgstr ""
+
+#: admin/options-init.php:341
+msgid "Enable or Disable Compare on header"
+msgstr ""
+
+#: admin/options-init.php:349
+msgid "Compare Page"
+msgstr ""
+
+#: admin/options-init.php:356
+msgid "Display Wishlist on header"
+msgstr ""
+
+#: admin/options-init.php:357
+msgid "Enable or Disable Wishlist on header"
+msgstr ""
+
+#: admin/options-init.php:365
+msgid "Wishlist Page"
+msgstr ""
+
+#: admin/options-init.php:372
+msgid "Display currency dropdown on header"
+msgstr ""
+
+#: admin/options-init.php:373
+msgid "Enable or Disable currency dropdown on header"
+msgstr ""
+
+#: admin/options-init.php:381
+msgid "Display cart dropdown on header"
+msgstr ""
+
+#: admin/options-init.php:382
+msgid "Enable or Disable cart dropdown on header"
+msgstr ""
+
+#: admin/options-init.php:390
+msgid "Display orders link on header"
+msgstr ""
+
+#: admin/options-init.php:391
+msgid "Enable or Disable orders link on header"
+msgstr ""
+
+#: admin/options-init.php:399
+msgid "Display account link on header"
+msgstr ""
+
+#: admin/options-init.php:400
+msgid "Enable or Disable account link on header"
+msgstr ""
+
+#: admin/options-init.php:408
+msgid "Display sticky header"
+msgstr ""
+
+#: admin/options-init.php:409
+msgid "Enable or Disable sticky header"
+msgstr ""
+
+#: admin/options-init.php:418
+msgid "Sticky Header Background"
+msgstr ""
+
+#: admin/options-init.php:419
+msgid "Sticky Header background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:427 admin/options-init.php:438
+msgid "Sticky Header Color"
+msgstr ""
+
+#: admin/options-init.php:461
+msgid "Top Panel Background"
+msgstr ""
+
+#: admin/options-init.php:462
+msgid "Top Panel background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:470
+msgid "Header Text"
+msgstr ""
+
+#: admin/options-init.php:471 admin/options-init.php:1469
+msgid "It will show at top."
+msgstr ""
+
+#: admin/options-init.php:472
+msgid ""
+"<ul>\n"
+"\t    <li><span class=\"myfont-location-1\"></span>Address: 7563 St. Vicent "
+"Place, Glasgow</li>\n"
+"\t    <li><span class=\"myfont-phone\"></span>Phone: +777 2345 7885:&nbsp; "
+"+777 2345 7886</li>\n"
+"\t    <li><span class=\"myfont-clock\"></span>Hours: 7 Days a week from "
+"10-00 am to 6-00 pm</li>\n"
+"\t</ul>"
+msgstr ""
+
+#: admin/options-init.php:481
+msgid "Header Cart Text"
+msgstr ""
+
+#: admin/options-init.php:482
+msgid "It will show at bottom of header cart."
+msgstr ""
+
+#: admin/options-init.php:483
+msgid "Free Shipping on All Orders over $99!"
+msgstr "Бесплатная доставка на заказы от 8000 руб!"
+
+#: admin/options-init.php:488
+msgid "Breadcrumbs Settings"
+msgstr "Настройка хлебных крошек"
+
+#: admin/options-init.php:490
+msgid "All breadcrumbs settings"
+msgstr ""
+
+#: admin/options-init.php:497
+msgid "Breadcrumbs Background"
+msgstr ""
+
+#: admin/options-init.php:508
+msgid "Blog Settings"
+msgstr ""
+
+#: admin/options-init.php:516
+msgid "Blog Layout Type"
+msgstr ""
+
+#: admin/options-init.php:517
+msgid "Blog Layout Type. List, Grid or Masonry"
+msgstr ""
+
+#: admin/options-init.php:521
+msgid "List"
+msgstr "Список"
+
+#: admin/options-init.php:525 admin/options-init.php:653
+msgid "Grid"
+msgstr "Решетка"
+
+#: admin/options-init.php:529 admin/options-init.php:657
+msgid "Masonry"
+msgstr ""
+
+#: admin/options-init.php:537
+msgid "Blog Tags"
+msgstr ""
+
+#: admin/options-init.php:538
+msgid "Enable tags in posts"
+msgstr ""
+
+#: admin/options-init.php:544
+msgid "Blog Read More Button"
+msgstr ""
+
+#: admin/options-init.php:545
+msgid "Enable Read More button in posts"
+msgstr ""
+
+#: admin/options-init.php:551
+msgid "Blog Read More Button Text"
+msgstr ""
+
+#: admin/options-init.php:552 functions.php:799 inc/template-tags.php:738
+#: inc/widgets/class-wp-widget-about.php:60
+msgid "Read more"
+msgstr ""
+
+#: admin/options-init.php:557
+msgid "Blog Social Share Buttons"
+msgstr ""
+
+#: admin/options-init.php:558
+msgid "Enable Social Share buttons in posts"
+msgstr ""
+
+#: admin/options-init.php:564
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: admin/options-init.php:565
+msgid "Enable Single Post Sidebar"
+msgstr ""
+
+#: admin/options-init.php:579
+msgid "Blog Image Small Size"
+msgstr ""
+
+#: admin/options-init.php:580
+msgid "Images for Posts Links Nav, etc."
+msgstr ""
+
+#: admin/options-init.php:590
+msgid "Blog Image Related Size"
+msgstr ""
+
+#: admin/options-init.php:600
+msgid "Blog Image Grid Size"
+msgstr ""
+
+#: admin/options-init.php:610
+msgid "Blog Image Masonry Size"
+msgstr ""
+
+#: admin/options-init.php:620
+msgid "Blog Image List Size"
+msgstr ""
+
+#: admin/options-init.php:630
+msgid "Blog Image Single Post Size"
+msgstr ""
+
+#: admin/options-init.php:640
+msgid "Gallery Settings"
+msgstr ""
+
+#: admin/options-init.php:648
+msgid "Gallery Layout Type"
+msgstr ""
+
+#: admin/options-init.php:649
+msgid "Gallery Layout Type. Grid or Masonry"
+msgstr ""
+
+#: admin/options-init.php:665
+msgid "Gallery Columns"
+msgstr ""
+
+#: admin/options-init.php:669 admin/options-init.php:673
+#, php-format
+msgid "%s Columns"
+msgstr ""
+
+#: admin/options-init.php:681
+msgid "Gallery Display Type"
+msgstr ""
+
+#: admin/options-init.php:684
+msgid "Images & Subcategories"
+msgstr ""
+
+#: admin/options-init.php:685
+msgid "Images"
+msgstr ""
+
+#: admin/options-init.php:686
+msgid "Subcategories"
+msgstr ""
+
+#: admin/options-init.php:692
+msgid "Order By"
+msgstr ""
+
+#: admin/options-init.php:695
+msgid "Menu Oreder"
+msgstr ""
+
+#: admin/options-init.php:696
+msgid "Date"
+msgstr ""
+
+#: admin/options-init.php:697
+msgid "ID"
+msgstr ""
+
+#: admin/options-init.php:698 inc/widgets/class-wp-widget-about.php:28
+#: inc/widgets/class-wp-widget-follow.php:28
+#: inc/widgets/class-wp-widget-instagram.php:36
+msgid "Title"
+msgstr ""
+
+#: admin/options-init.php:700
+msgid "Select order type."
+msgstr ""
+
+#: admin/options-init.php:705
+msgid "Sort Order"
+msgstr ""
+
+#: admin/options-init.php:708
+msgid "Ascending"
+msgstr ""
+
+#: admin/options-init.php:709
+msgid "Descending"
+msgstr ""
+
+#: admin/options-init.php:711
+msgid "Select sorting order."
+msgstr ""
+
+#: admin/options-init.php:716
+msgid "Posts per Page"
+msgstr ""
+
+#: admin/options-init.php:718
+msgid "Leave blank to use default value. To show all posts insert \"-1\""
+msgstr ""
+
+#: admin/options-init.php:723
+msgid "Gallery Media Settings"
+msgstr ""
+
+#: admin/options-init.php:732
+msgid "Gallery Image Grid Small Size"
+msgstr ""
+
+#: admin/options-init.php:742
+msgid "Gallery Image Grid Medium Size"
+msgstr ""
+
+#: admin/options-init.php:752
+msgid "Gallery Image Masonry Small Size"
+msgstr ""
+
+#: admin/options-init.php:762
+msgid "Gallery Image Masonry Medium Size"
+msgstr ""
+
+#: admin/options-init.php:772
+msgid "Gallery Lightbox Thumbs Size"
+msgstr ""
+
+#: admin/options-init.php:782
+msgid "Typography"
+msgstr ""
+
+#: admin/options-init.php:784
+msgid "Theme all font options"
+msgstr ""
+
+#: admin/options-init.php:791
+msgid "Body Typography"
+msgstr ""
+
+#: admin/options-init.php:792
+msgid "Select body font family, size, line height, color and weight."
+msgstr ""
+
+#: admin/options-init.php:810
+msgid "H1"
+msgstr ""
+
+#: admin/options-init.php:811
+msgid "H1 typography settings"
+msgstr ""
+
+#: admin/options-init.php:829
+msgid "H2"
+msgstr ""
+
+#: admin/options-init.php:830
+msgid "H2 typography settings"
+msgstr ""
+
+#: admin/options-init.php:848
+msgid "H3"
+msgstr ""
+
+#: admin/options-init.php:849
+msgid "H3 typography settings"
+msgstr ""
+
+#: admin/options-init.php:869
+msgid "H4"
+msgstr ""
+
+#: admin/options-init.php:870
+msgid "H4 typography settings"
+msgstr ""
+
+#: admin/options-init.php:888
+msgid "H5"
+msgstr ""
+
+#: admin/options-init.php:889
+msgid "H5 typography settings"
+msgstr ""
+
+#: admin/options-init.php:907
+msgid "H6"
+msgstr ""
+
+#: admin/options-init.php:908
+msgid "H6 typography settings"
+msgstr ""
+
+#: admin/options-init.php:926
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: admin/options-init.php:928
+msgid "These are really basic fields!"
+msgstr ""
+
+#: admin/options-init.php:935
+msgid "In Stock Label"
+msgstr ""
+
+#: admin/options-init.php:936
+msgid "Always display Instock label"
+msgstr ""
+
+#: admin/options-init.php:944
+msgid "SKU Label"
+msgstr ""
+
+#: admin/options-init.php:945
+msgid "Display SKU label if available"
+msgstr ""
+
+#: admin/options-init.php:953
+msgid "Pagination Variant"
+msgstr ""
+
+#: admin/options-init.php:956
+msgid "Pagination"
+msgstr ""
+
+#: admin/options-init.php:957
+msgid "Load More Button"
+msgstr ""
+
+#: admin/options-init.php:958
+msgid "Infinite scroll"
+msgstr ""
+
+#: admin/options-init.php:964
+msgid "Posts per page for Listing with Sidebar"
+msgstr ""
+
+#: admin/options-init.php:971
+msgid "Posts per page for Listing without Sidebar"
+msgstr ""
+
+#: admin/options-init.php:978 admin/options-init.php:985
+msgid "Posts per page for Listing Average Previews"
+msgstr ""
+
+#: admin/options-init.php:992
+msgid "Shop page layout"
+msgstr ""
+
+#: admin/options-init.php:993
+msgid "Set shop page layout"
+msgstr ""
+
+#: admin/options-init.php:997 admin/options-init.php:1043
+msgid "Standard"
+msgstr ""
+
+#: admin/options-init.php:1001
+msgid "Categories Collection"
+msgstr ""
+
+#: admin/options-init.php:1009
+msgid "Product grid columns for loop"
+msgstr ""
+
+#: admin/options-init.php:1010
+msgid "Set Product grid columns for loop"
+msgstr ""
+
+#: admin/options-init.php:1014
+msgid "Listing with Sidebar"
+msgstr ""
+
+#: admin/options-init.php:1018
+msgid "Listing Catalogue"
+msgstr ""
+
+#: admin/options-init.php:1022
+msgid "Listing without Columns"
+msgstr ""
+
+#: admin/options-init.php:1026
+msgid "Listing Average Previews"
+msgstr ""
+
+#: admin/options-init.php:1030
+msgid "Listing Big Previews"
+msgstr ""
+
+#: admin/options-init.php:1038
+msgid "Layout for shop category page"
+msgstr ""
+
+#: admin/options-init.php:1039
+msgid "Set layout for shop category page"
+msgstr ""
+
+#: admin/options-init.php:1047
+msgid "With category banner"
+msgstr ""
+
+#: admin/options-init.php:1055
+msgid "Loop Thumb Effect"
+msgstr ""
+
+#: admin/options-init.php:1058 admin/options-init.php:1094
+#: admin/options-init.php:1271
+msgid "Fade"
+msgstr ""
+
+#: admin/options-init.php:1059 admin/options-init.php:1095
+#: admin/options-init.php:1272
+msgid "Slide"
+msgstr ""
+
+#: admin/options-init.php:1060 admin/options-init.php:1096
+#: admin/options-init.php:1273
+msgid "Cube"
+msgstr ""
+
+#: admin/options-init.php:1061 admin/options-init.php:1097
+#: admin/options-init.php:1274
+msgid "Flip"
+msgstr ""
+
+#: admin/options-init.php:1067 inc/template-tags.php:409
+msgid "Compare"
+msgstr "Сравнения"
+
+#: admin/options-init.php:1075 inc/template-tags.php:428
+msgid "Wishlist"
+msgstr "Список желаний"
+
+#: admin/options-init.php:1083
+msgid "Quick View"
+msgstr "Быстрый просмотр"
+
+#: admin/options-init.php:1091
+msgid "Quick View Thumb Effect"
+msgstr ""
+
+#: admin/options-init.php:1111
+msgid "Single Product Thumb Size"
+msgstr ""
+
+#: admin/options-init.php:1121
+msgid "Mini-cart Thumb Size"
+msgstr ""
+
+#: admin/options-init.php:1131
+msgid "Cart Thumb Size"
+msgstr ""
+
+#: admin/options-init.php:1141
+msgid "Catalog Image Small Size"
+msgstr ""
+
+#: admin/options-init.php:1151
+msgid "Catalog Image Average Size"
+msgstr ""
+
+#: admin/options-init.php:1161
+msgid "Catalog Image Big Size"
+msgstr ""
+
+#: admin/options-init.php:1171
+msgid "Catalog Image List Size"
+msgstr ""
+
+#: admin/options-init.php:1181
+msgid "Single Product v1 Image Size"
+msgstr ""
+
+#: admin/options-init.php:1191
+msgid "Single Product v2 Image Size"
+msgstr ""
+
+#: admin/options-init.php:1201
+msgid "Collection Image Size 1x1"
+msgstr ""
+
+#: admin/options-init.php:1211
+msgid "Collection Image Size 1x2"
+msgstr ""
+
+#: admin/options-init.php:1221
+msgid "Collection Image Size 2x1"
+msgstr ""
+
+#: admin/options-init.php:1231
+msgid "Collection Image Size 2x2"
+msgstr ""
+
+#: admin/options-init.php:1249
+msgid "Product Page Layout"
+msgstr ""
+
+#: admin/options-init.php:1250
+msgid "Select product page layout"
+msgstr ""
+
+#: admin/options-init.php:1267
+msgid "Swiper Effect"
+msgstr ""
+
+#: admin/options-init.php:1268
+msgid "For Page Layout 1"
+msgstr ""
+
+#: admin/options-init.php:1280 admin/options-init.php:1306
+msgid "Zoom"
+msgstr ""
+
+#: admin/options-init.php:1288
+msgid "Display Product Share"
+msgstr ""
+
+#: admin/options-init.php:1289
+msgid "Enable or Disable Product Share on product page"
+msgstr ""
+
+#: admin/options-init.php:1297
+msgid "Lightbox"
+msgstr ""
+
+#: admin/options-init.php:1298
+msgid "Enable or Disable Lightbox on product images"
+msgstr ""
+
+#: admin/options-init.php:1307
+msgid "Enable or Disable Zoom on product images"
+msgstr ""
+
+#: admin/options-init.php:1315
+msgid "Popup Settings"
+msgstr ""
+
+#: admin/options-init.php:1317
+msgid "Popup for email subscription"
+msgstr ""
+
+#: admin/options-init.php:1324
+msgid "Popup"
+msgstr ""
+
+#: admin/options-init.php:1325
+msgid "Enable or Disable popup on site"
+msgstr ""
+
+#: admin/options-init.php:1333
+msgid "Popup Pretext"
+msgstr ""
+
+#: admin/options-init.php:1334
+#, php-format
+msgid ""
+"<h2>BE THE FIRST<br>TO KNOW.</h2><p class=\"discount\">15% off</p><h4>your "
+"next purchase when you sign up.</h4><p>By signing up, you accept the <a href="
+"\"#\">terms & Privacy Policy</a></p>"
+msgstr ""
+
+#: admin/options-init.php:1339
+msgid "Popup subscribe form"
+msgstr ""
+
+#: admin/options-init.php:1345
+msgid "Check if user is subscribed"
+msgstr ""
+
+#: admin/options-init.php:1346
+msgid "Don't show popup if user is subscribed"
+msgstr ""
+
+#: admin/options-init.php:1354
+msgid "Don't show again button"
+msgstr ""
+
+#: admin/options-init.php:1362
+msgid "Delay, in ms"
+msgstr ""
+
+#: admin/options-init.php:1363
+msgid "Delay between page loaded and popup shown"
+msgstr ""
+
+#: admin/options-init.php:1372
+msgid "Footer Settings"
+msgstr ""
+
+#: admin/options-init.php:1380
+msgid "Footer Layout"
+msgstr ""
+
+#: admin/options-init.php:1384 admin/options-init.php:1388
+#: admin/options-init.php:1392 admin/options-init.php:1396
+#: admin/options-init.php:1400
+#, php-format
+msgid "Layout %s"
+msgstr ""
+
+#: admin/options-init.php:1409
+msgid "Footer Background"
+msgstr ""
+
+#: admin/options-init.php:1410
+msgid "Footer background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:1419
+msgid "Footer Top Panel Background"
+msgstr ""
+
+#: admin/options-init.php:1420
+msgid "Footer Top Panel background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:1429
+msgid "Footer Bottom Panel Background"
+msgstr ""
+
+#: admin/options-init.php:1430
+msgid "Footer Bottom Panel background with image, color, etc."
+msgstr ""
+
+#: admin/options-init.php:1439
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/options-init.php:1440
+msgid "Add/Upload  footer logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1449
+msgid "Footer Retina 2x Logo"
+msgstr ""
+
+#: admin/options-init.php:1450
+msgid "Add/Upload footer retina 2x logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1459
+msgid "Footer Retina 3x Logo"
+msgstr ""
+
+#: admin/options-init.php:1460
+msgid "Add/Upload footer retina 3x logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1468
+msgid "Footer Text"
+msgstr ""
+
+#: admin/options-init.php:1470
+#, php-format
+msgid ""
+"WOWMALL is proudly powered by WordPress Entries (RSS) and Comments (RSS) %s"
+msgstr ""
+
+#: admin/options-init.php:1475
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: admin/options-init.php:1482
+msgid "Payment Methods"
+msgstr ""
+
+#: admin/options-init.php:1483
+msgid "Enable or Disable Payments Methods image"
+msgstr ""
+
+#: admin/options-init.php:1492
+msgid "Payment Methods Image"
+msgstr ""
+
+#: admin/options-init.php:1493
+msgid "Add/Upload Payment Methods image using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1501
+msgid "To Top button"
+msgstr ""
+
+#: admin/options-init.php:1502
+msgid "Enable or Disable To Top button"
+msgstr ""
+
+#: admin/options-init.php:1510
+msgid "Top panel"
+msgstr ""
+
+#: admin/options-init.php:1518
+msgid "Top panel newsletter title"
+msgstr ""
+
+#: admin/options-init.php:1519 inc/template-tags.php:927
+msgid "Newsletter Signup"
+msgstr ""
+
+#: admin/options-init.php:1524
+msgid "Top panel newsletter text"
+msgstr ""
+
+#: admin/options-init.php:1525 inc/template-tags.php:928
+#, php-format
+msgid ""
+"Sign up for our e-mail and be the first who know our special offers! "
+"Furthermore, we will give a 15% discount on the next order after you sign up."
+msgstr ""
+
+#: admin/options-init.php:1530
+msgid "Top panel newsletter"
+msgstr ""
+
+#: admin/options-init.php:1536
+msgid "Footer Layout 1"
+msgstr ""
+
+#: admin/options-init.php:1544
+msgid "Footer Layout 1 Page"
+msgstr ""
+
+#: admin/options-init.php:1551
+msgid "Footer Layout 2"
+msgstr ""
+
+#: admin/options-init.php:1559
+msgid "Footer Layout 2 Page"
+msgstr ""
+
+#: admin/options-init.php:1566
+msgid "Footer Layout 3"
+msgstr ""
+
+#: admin/options-init.php:1574
+msgid "Footer Layout 3 Page"
+msgstr ""
+
+#: admin/options-init.php:1581
+msgid "Footer Layout 4"
+msgstr ""
+
+#: admin/options-init.php:1589
+msgid "Footer Layout 4 Page"
+msgstr ""
+
+#: admin/options-init.php:1596
+msgid "Extra Settings"
+msgstr ""
+
+#: admin/options-init.php:1604
+msgid "Extra CSS"
+msgstr ""
+
+#: admin/options-init.php:1605
+msgid "Extra CSS just after theme styles"
+msgstr ""
+
+#: admin/options-init.php:1612
+msgid "Maintenance"
+msgstr ""
+
+#: admin/options-init.php:1617
+msgid "Enable/Disable maintenance mode"
+msgstr ""
+
+#: admin/options-init.php:1628
+msgid "Maintenance Page background"
+msgstr ""
+
+#: admin/options-init.php:1637
+msgid "Add/Upload Logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1638
+msgid "Maintenance Page Logo"
+msgstr ""
+
+#: admin/options-init.php:1647
+msgid "Add/Upload retina 2x Logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1648
+msgid "Maintenance  Retina 2x Logo"
+msgstr ""
+
+#: admin/options-init.php:1657
+msgid "Add/Upload retina 3x Logo using the WordPress native uploader"
+msgstr ""
+
+#: admin/options-init.php:1658
+msgid "Maintenance Page Retina 3x Logo"
+msgstr ""
+
+#: admin/options-init.php:1666
+msgid "Page Title"
+msgstr ""
+
+#: admin/options-init.php:1669
+msgid "We&#39;re Coming Soon"
+msgstr ""
+
+#: admin/options-init.php:1674
+msgid "Newsletter Pretext"
+msgstr ""
+
+#: admin/options-init.php:1677
+#, php-format
+msgid ""
+"<h3>Subscribe to Our Newsletter</h3> BE THE FIRST TO KNOW. Get 15% off your "
+"next purchase when you sign up. By signing up, you accept the terms & "
+"Privacy Policy"
+msgstr ""
+
+#: admin/options-init.php:1682
+msgid "Maintenance Page newsletter form"
+msgstr ""
+
+#: admin/options-init.php:1688
+msgid "Enable/Disable countdown"
+msgstr ""
+
+#: admin/options-init.php:1697
+msgid "Maintenance Page Date"
+msgstr ""
+
+#: admin/options-init.php:1698
+msgid "Click to enter a date"
+msgstr ""
+
+#: admin/options-init.php:1703
+msgid "Maintenance Page Time, in hrs"
+msgstr ""
+
+#: admin/options-init.php:1712
+msgid "Enable/Disable maintenance demo mode"
+msgstr ""
+
+#: admin/options-init.php:1713
+msgid "Countdown will always shows approximately 6 month"
+msgstr ""
+
+#: admin/options-init.php:1721
+msgid "License"
+msgstr "Лицензия"
+
+#: admin/options-init.php:1729
+msgid "Purchase code"
+msgstr ""
+
+#: admin/options-init.php:1730
+msgid "Enter your purchchase code"
+msgstr ""
+
+#: admin/options-init.php:1732
+msgid "How to find your ThemeForest Item Purchase Code"
+msgstr ""
+
+#: admin/options-init.php:1733
+msgid ""
+"<ol>\n"
+"<li>Login into your ThemeForest account and go to the \"Downloads\" page.</"
+"li>\n"
+"<li>Download the License Certificate & purchase code.</li>\n"
+"<li>Open the downloaded file and inside you’ll find the Item Purchase Code</"
+"li>\n"
+"</ol>"
+msgstr ""
+
+#: admin/options-init.php:1760
+msgid "Upload favicon for the site %"
+msgstr ""
+
+#: admin/options-init.php:1763
+msgid "Upload favicon for the theme"
+msgstr ""
+
+#: admin/options-init.php:1770
+msgid "Favicon URL"
+msgstr ""
+
+#: admin/redux-extensions/extensions/license/extension_license.php:112
+msgid "Not valid code"
+msgstr ""
+
+#: admin/redux-extensions/extensions/license/extension_license.php:120
+msgid "Activation failed. Please try again later."
+msgstr ""
+
+#: admin/redux-extensions/extensions/license/license/field_license.php:95
+#: admin/tgm/class-tgm-plugin-activation.php:2790
+msgid "Activate"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:260
+msgid "Demo Already Imported"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:287
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:289
+msgid "Demo Importer"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:294
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:385
+msgid "Home &#8212; Variant 1"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:386
+msgid "Home &#8212; Variant 2"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:387
+msgid "Home &#8212; Variant 3"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:388
+msgid "Home &#8212; Variant 4"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:389
+msgid "Home &#8212; Variant 5"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:390
+msgid "Home &#8212; Variant 6"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:391
+msgid "Home &#8212; Variant 7"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:392
+msgid "Home &#8212; Variant 8"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:393
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:394
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:395
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:396
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:397
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:398
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:399
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:400
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:401
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:402
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:403
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:404
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:405
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:406
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:407
+#: admin/redux-extensions/extensions/wbc_importer/extension_wbc_importer.php:408
+msgid "Home"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:167
+msgid ""
+"Content data file containing the dummy content is not available or could not "
+"be read."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:198
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/radium-importer.php:279
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:96
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:104
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:97
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:187
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:232
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:291
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:662
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:390
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:626
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:453
+msgid "Unknown failure reason."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:526
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:802
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:808
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:962
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/inc/importer/wordpress-importer.php:969
+msgid "Invalid file type"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:95
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:125
+msgid "Import Demo"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:99
+msgid "Demo Imported"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:104
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:122
+msgid "Activate to Import"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:125
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:128
+msgid "Please Wait..."
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "Imported"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:129
+msgid "Re-Import"
+msgstr ""
+
+#: admin/redux-extensions/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:138
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:339
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:391
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:392
+#: admin/tgm/class-tgm-plugin-activation.php:891
+#: admin/tgm/class-tgm-plugin-activation.php:2597
+#: admin/tgm/class-tgm-plugin-activation.php:3647
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:393
+#: admin/tgm/class-tgm-plugin-activation.php:3226
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:394
+#: admin/tgm/class-tgm-plugin-activation.php:3019
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:396
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:398
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:400
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:402
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:403
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:579
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:580
+msgid "Update Required"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:998
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:998
+#: admin/tgm/class-tgm-plugin-activation.php:1001
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1001
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:1185
+#: admin/tgm/class-tgm-plugin-activation.php:3015
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2046
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2337
+msgid "Required"
+msgstr "Обязательное"
+
+#: admin/tgm/class-tgm-plugin-activation.php:2340
+msgid "Recommended"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2356
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2359
+msgid "External Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2362
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2379
+msgid "Not Installed"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2383
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2385
+msgid "Active"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2391
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: admin/tgm/class-tgm-plugin-activation.php:2394
+msgid "Requires Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2397
+msgid "Update recommended"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2406
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2452
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2456
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2460
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2464
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2546
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2554
+msgid "Installed version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2562
+msgid "Minimum required version:"
+msgstr "Минимальная требуемая версия:"
+
+#: admin/tgm/class-tgm-plugin-activation.php:2574
+msgid "Available version:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2597
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2611
+msgid "Plugin"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2612
+msgid "Source"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2613
+msgid "Type"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2617
+msgid "Version"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2618
+msgid "Status"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2667
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2672
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2678
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2748
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2781
+msgid "Install"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2787
+msgid "Update"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2821
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2823
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2864
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2866
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:2975
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3001
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3225
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3565
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3568
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3570
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3574
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3576
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3576
+#: admin/tgm/class-tgm-plugin-activation.php:3584
+msgid "Show Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3576
+#: admin/tgm/class-tgm-plugin-activation.php:3584
+msgid "Hide Details"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3577
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3582
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3584
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3585
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/tgm/class-tgm-plugin-activation.php:3587
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "%1$s response"
+msgid_plural "%1$s responses"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:40 comments.php:63
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:43 comments.php:66
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+#: comments.php:44 comments.php:67
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:88 woocommerce/single-product-reviews.php:76
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий к %s"
+
+#: comments.php:91 woocommerce/single-product-reviews.php:80
+msgid "Name"
+msgstr "Логин"
+
+#: comments.php:92 woocommerce/single-product-reviews.php:81
+msgid "Enter your name, please"
+msgstr "Введите ваш логин"
+
+#: comments.php:93 woocommerce/single-product-reviews.php:82
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:94 woocommerce/single-product-reviews.php:83
+msgid "Enter your e-mail, please"
+msgstr "Введите ваш e-mail"
+
+#: comments.php:96 woocommerce/single-product-reviews.php:85
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: comments.php:98
+msgid "Your Comment"
+msgstr "Ваш комментарий"
+
+#: comments.php:98 woocommerce/single-product-reviews.php:87
+msgid "Enter your review, please"
+msgstr "Введите ваш комментарий, пожалуйста"
+
+#: functions.php:99
+msgid "Plugin \"MailChimp for WP\" not activated"
+msgstr ""
+
+#: functions.php:496
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:506
+msgid "Shop Sidebar"
+msgstr "Сайдбар магазина"
+
+#: functions.php:517
+msgid "Top Panel Currency Switcher Sidebar"
+msgstr ""
+
+#: functions.php:713
+msgid "Added"
+msgstr "Добавлено"
+
+#: functions.php:800
+msgid "Read less"
+msgstr "Читайте меньше"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: inc/breadcrumb.php:114
+msgid "Error 404"
+msgstr "Упс"
+
+#: inc/breadcrumb.php:206
+#, php-format
+msgid "Products tagged &ldquo;%s&rdquo;"
+msgstr "Товары с метками &ldquo;%s&rdquo;"
+
+#: inc/breadcrumb.php:257
+#, php-format
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr "Пост с метками &ldquo;%s&rdquo;"
+
+#: inc/breadcrumb.php:298
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: inc/breadcrumb.php:333
+#, php-format
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr "Результаты поиска &ldquo;%s&rdquo;"
+
+#: inc/breadcrumb.php:342
+#, php-format
+msgid "Page %d"
+msgstr "Страница %d"
+
+#: inc/functions.php:277
+msgid "Send"
+msgstr "Отправить"
+
+#: inc/functions.php:438
+msgid "Facebook"
+msgstr ""
+
+#: inc/functions.php:443
+msgid "Twitter"
+msgstr ""
+
+#: inc/functions.php:448
+msgid "Google+"
+msgstr ""
+
+#: inc/functions.php:453
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/functions.php:458
+msgid "Pinterest"
+msgstr ""
+
+#: inc/functions.php:488
+msgid "Share on "
+msgstr "Поделиться "
+
+#: inc/functions.php:785
+msgid "Prev Post"
+msgstr "Предыдущий пост"
+
+#: inc/functions.php:785
+msgid "Next Post"
+msgstr "Следующий пост"
+
+#: inc/functions.php:878
+#, php-format
+msgid ""
+"<h2>BE THE FIRST<br>TO KNOW.</h2><p class=discount>15% off</p><h4>your next "
+"purchase when you sign up.</h4><p>By signing up, you accept the <a "
+"href=#>terms & Privacy Policy</p></a>"
+msgstr ""
+"<h2>БУДЬ ПЕРВЫМ<br>ПОЛУЧИ</h2><p class=discount>15% oскидку</p><h4>на "
+"следующую покупку</h4><p>By signing up, you accept the <a href=#>terms & "
+"Privacy Policy</p></a>"
+
+#: inc/functions.php:892
+msgid "Don't show it again"
+msgstr "Не показывать снова"
+
+#: inc/functions.php:893 sidebar-shop.php:42
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/functions.php:961 inc/functions.php:970
+#, php-format
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/functions.php:1047 inc/template-tags.php:356 inc/template-tags.php:375
+#: inc/template-tags.php:388 woocommerce/product-searchform.php:26
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск:"
+
+#: inc/functions.php:1048 inc/template-tags.php:383
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr "Поиск&hellip;"
+
+#: inc/functions.php:1079
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: inc/functions.php:1080
+msgid "Password:"
+msgstr "Пароль:"
+
+#: inc/functions.php:1080
+msgctxt "post password form"
+msgid "Enter"
+msgstr "Ввести"
+
+#: inc/functions.php:1126
+msgctxt "top-search"
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: inc/template-tags.php:79 woocommerce/myaccount/orders.php:27
+msgid "Orders"
+msgstr "Заказы"
+
+#: inc/template-tags.php:91
+msgid "Login \\ Register"
+msgstr "Войти \\ Регистрация"
+
+#: inc/template-tags.php:96
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: inc/template-tags.php:172
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/template-tags.php:355 inc/template-tags.php:374
+#: inc/template-tags.php:387 woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr "Искать:"
+
+#: inc/template-tags.php:356 inc/template-tags.php:383
+msgctxt "placeholder"
+msgid "Search products&hellip;"
+msgstr "Искать товары&hellip;"
+
+#: inc/template-tags.php:376
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/template-tags.php:499
+msgid "GBP - &pound;"
+msgstr ""
+
+#: inc/template-tags.php:500
+msgid "EUR - &euro;"
+msgstr ""
+
+#: inc/template-tags.php:501
+msgid "USD - &#36;"
+msgstr ""
+
+#: inc/template-tags.php:505
+msgid "GBP Pounds &pound;"
+msgstr ""
+
+#: inc/template-tags.php:506
+msgid "EUR Euro &euro;"
+msgstr ""
+
+#: inc/template-tags.php:507 inc/template-tags.php:513
+msgid "USD Dollars &#36;"
+msgstr ""
+
+#: inc/template-tags.php:515
+msgid "&#36;"
+msgstr ""
+
+#: inc/template-tags.php:722 inc/template-tags.php:763
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:724 inc/template-tags.php:765
+#, php-format
+msgid "Tags: %1$s"
+msgstr "Тэги: %1$s"
+
+#: inc/template-tags.php:830
+msgid "You might  also be interesed in:"
+msgstr "Вас также заинтересует:"
+
+#: inc/template-tags.php:876
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий на модерации."
+
+#: inc/template-tags.php:901
+msgctxt "to-top-button"
+msgid "Top"
+msgstr "Вверх"
+
+#: inc/widgets/class-mc4wp-form-widget.php:62
+msgid "Pretext:"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-about.php:21
+msgid "Display an information about your site."
+msgstr "Отобразить информацию о вашем сайте."
+
+#: inc/widgets/class-wp-widget-about.php:23
+msgid "Wowmall About"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-about.php:29
+msgid "About us"
+msgstr "О нас"
+
+#: inc/widgets/class-wp-widget-about.php:38
+msgid "Text or HTML"
+msgstr "Текст или HTML"
+
+#: inc/widgets/class-wp-widget-about.php:40
+msgid "Content:"
+msgstr "Содержимое:"
+
+#: inc/widgets/class-wp-widget-about.php:46
+msgid "Enable button"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-about.php:51
+msgid "Button linked page"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-about.php:56
+msgid "Button link(leave blank to use pages)"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-about.php:61
+msgid "Button label"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-follow.php:21
+msgid "Display Social Media Profiles"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-follow.php:23
+msgid "Wowmall Follow"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-follow.php:29
+msgid "Follow us"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:29
+msgid "Display Instagram Feed"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:31
+msgid "Wowmall Instagram"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:37
+msgid "Instagram"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:42
+msgid "Hashtag (enter without `#` symbol)"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:50
+msgid "Number of photos"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:68
+msgid "Enter a valid hashtag, please."
+msgstr ""
+
+#: inc/widgets/class-wp-widget-instagram.php:75
+msgid "No photos. Maybe you entered a invalid hashtag."
+msgstr ""
+
+#: inc/widgets/class-wp-widget-recent-comments.php:35
+msgid "Recent Comments"
+msgstr "Последние Комментарии"
+
+#: inc/widgets/class-wp-widget-recent-comments.php:73
+#, php-format
+msgctxt "widgets"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-recent-posts.php:34
+msgid "Recent Posts"
+msgstr "Последние Посты"
+
+#: inc/widgets/class-wp-widget-recent-posts.php:148
+msgid "Display post author?"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-recent-posts.php:151
+msgid "Display post cats?"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-recent-posts.php:154
+msgid "Display post excerpt?"
+msgstr ""
+
+#: inc/widgets/class-wp-widget-recent-posts.php:157
+msgid "Display post comments count?"
+msgstr ""
+
+#: inc/widgets/woo/wc-widget-clear-all.php:10
+msgid "Shows a \"Clear All\" button"
+msgstr ""
+
+#: inc/widgets/woo/wc-widget-clear-all.php:12
+msgid "WooCommerce Clear All Button"
+msgstr ""
+
+#: inc/widgets/woo/wc-widget-clear-all.php:40
+msgid "Clear all"
+msgstr "Сбросить всё"
+
+#: inc/widgets/woo/wc-widget-layered-nav.php:147
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: inc/widgets/woo/wc-widget-price-filter.php:118
+msgid "Price:"
+msgstr "Цена:"
+
+#: inc/widgets/woo/wc-widget-rating-filter.php:67
+#: inc/widgets/woo/wc-widget-rating-filter.php:68
+#, php-format
+msgid "Rated %s and above"
+msgstr ""
+
+#: inc/widgets/woo/wc-widget-recent-reviews.php:65
+#, php-format
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr ""
+
+#: inc/woo/functions.php:222
+msgid "New"
+msgstr "Новинка"
+
+#: inc/woo/functions.php:229
+msgid "In stock"
+msgstr "В наличии"
+
+#: inc/woo/functions.php:234
+msgid "Featured"
+msgstr "Популярные"
+
+#: inc/woo/functions.php:257
+msgid "SKU:"
+msgstr ""
+
+#: inc/woo/functions.php:258 woocommerce/order/order-details-customer.php:57
+#: woocommerce/order/order-details-customer.php:62
+msgid "N/A"
+msgstr ""
+
+#: inc/woo/functions.php:281
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] "Тэги"
+msgstr[1] "Тэги"
+msgstr[2] "Тэги"
+
+#: inc/woo/functions.php:308
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/woo/functions.php:311
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: inc/woo/functions.php:312
+#, php-format
+msgid "based on %s customer rating(s)"
+msgstr "основано на %s оценках покупателя(ей)"
+
+#: inc/woo/functions.php:325 inc/woo/functions.php:925
+#, php-format
+msgid "%s Review(s)"
+msgstr "%s Обзор(ы)"
+
+#: inc/woo/functions.php:963
+msgid "Sale"
+msgstr "Скидки"
+
+#: inc/woo/functions.php:986
+msgid "Quick view"
+msgstr "Быстрый просмотр"
+
+#: inc/woo/functions.php:1252
+msgid "Place order"
+msgstr "Оплатить"
+
+#: inc/woo/functions.php:1559 inc/woo/functions.php:1583
+#, php-format
+msgctxt "woocommerce loop category title"
+msgid "%s Product"
+msgid_plural "%s Products"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/woo/functions.php:1614 search.php:24
+#: woocommerce/loop/no-products-found.php:24
+#, php-format
+msgid "Search Results for %s"
+msgstr "Результаты поиска для %s"
+
+#: inc/woo/functions.php:1616
+msgid "Your search returns no results."
+msgstr "Ваш поиск не дал результатов."
+
+#: inc/woo/functions.php:1619
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; Страница %s"
+
+#: maintenance.php:45
+msgid "months"
+msgstr "месяцев"
+
+#: maintenance.php:47
+msgid "days"
+msgstr "дней"
+
+#: maintenance.php:49
+msgid "hours"
+msgstr "часов"
+
+#: maintenance.php:51
+msgid "minutes"
+msgstr "минут"
+
+#: maintenance.php:53
+msgid "seconds"
+msgstr "секунд"
+
+#: sidebar-shop.php:42
+msgid "Filter"
+msgstr "Фильтр"
+
+#: template-parts/content-author-bio.php:17
+#, php-format
+msgid "Written by %s"
+msgstr "Автор %s"
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свой первый пост? <a href=\"%1$s\">Вперёд</a>."
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Жаль, но ничего не соответствуют критериям поиска. Пожалуйста, попробуйте "
+"снова с другими ключевыми словам."
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Мы не можем найти что вы ищете. Воспользуйтесь поиском."
+
+#: template-parts/content-page.php:17
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: woocommerce/cart/cart-empty.php:27
+msgid "Shopping Cart is Empty"
+msgstr "Корзина пуста"
+
+#: woocommerce/cart/cart-empty.php:29
+msgid "You have no items in your shopping cart."
+msgstr "Вы не имеете товаров в корзине."
+
+#: woocommerce/cart/cart-empty.php:37
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+#: woocommerce/cart/cart-totals.php:27
+msgid "Cart Total"
+msgstr "Сумма заказов"
+
+#: woocommerce/cart/cart-totals.php:33
+msgid "Coupon code:"
+msgstr "Код купона:"
+
+#: woocommerce/cart/cart-totals.php:35 woocommerce/checkout/form-coupon.php:38
+msgid "Code"
+msgstr "Код"
+
+#: woocommerce/cart/cart-totals.php:36 woocommerce/checkout/form-coupon.php:39
+msgid "Apply"
+msgstr "Применить"
+
+#: woocommerce/cart/cart-totals.php:45
+msgid "Subtotal:"
+msgstr "С учётом скидок:"
+
+#: woocommerce/cart/cart-totals.php:46 woocommerce/cart/mini-cart.php:70
+#: woocommerce/checkout/review-order.php:51
+#: woocommerce/checkout/review-order.php:52
+msgid "Subtotal"
+msgstr "Общая сумма"
+
+#: woocommerce/cart/cart-totals.php:67
+msgid "Shipping"
+msgstr "Доставка"
+
+#: woocommerce/cart/cart-totals.php:83
+#, php-format
+msgid "estimated for %s"
+msgstr "истекает for %s"
+
+#: woocommerce/cart/cart-totals.php:104 woocommerce/cart/cart-totals.php:105
+#: woocommerce/cart/cart.php:43 woocommerce/cart/cart.php:117
+#: woocommerce/checkout/review-order.php:98
+#: woocommerce/checkout/review-order.php:99
+#: woocommerce/order/order-details.php:33
+msgid "Total"
+msgstr "Сумма"
+
+#: woocommerce/cart/cart.php:40
+msgid "Products"
+msgstr "Товары"
+
+#: woocommerce/cart/cart.php:41 woocommerce/cart/cart.php:94
+msgid "Price"
+msgstr "Цена"
+
+#: woocommerce/cart/cart.php:42 woocommerce/cart/cart.php:100
+msgid "Quantity"
+msgstr "Количество"
+
+#: woocommerce/cart/cart.php:64 woocommerce/cart/mini-cart.php:45
+msgid "Remove this item"
+msgstr "Удалить этот товар"
+
+#: woocommerce/cart/cart.php:87
+msgid "Available on backorder"
+msgstr "Доступен на предварительный заказ"
+
+#: woocommerce/cart/cart.php:136
+msgid "Apply Coupon"
+msgstr "Применить купон"
+
+#: woocommerce/cart/cart.php:138
+msgid "Update Cart"
+msgstr "Обновить корзину"
+
+#: woocommerce/cart/cross-sells.php:32
+msgid "You may be interested in&hellip;"
+msgstr "Вам также может понравиться like&hellip;"
+
+#: woocommerce/cart/mini-cart.php:64
+msgid "No products in the cart."
+msgstr "Корзина пуста."
+
+#: woocommerce/cart/mini-cart.php:75
+msgid "Proceed to checkout"
+msgstr "Перейти к оплате"
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "View Cart"
+msgstr "В корзину"
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to Checkout"
+msgstr "Перейти к оплате"
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Calculate Shipping"
+msgstr "Посчитать стоимость доставки"
+
+#: woocommerce/cart/shipping-calculator.php:37
+msgid "Select a country&hellip;"
+msgstr "Выберите страну&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:54
+#: woocommerce/cart/shipping-calculator.php:60
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "State / county"
+msgstr "Область/штат"
+
+#: woocommerce/cart/shipping-calculator.php:61
+msgid "Select a state&hellip;"
+msgstr "Выберите область&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:81
+msgid "City"
+msgstr "Город"
+
+#: woocommerce/cart/shipping-calculator.php:89
+msgid "Postcode / ZIP"
+msgstr "Почтовый индекс"
+
+#: woocommerce/cart/shipping-calculator.php:94
+msgid "Update Totals"
+msgstr "Обновить сумму"
+
+#: woocommerce/checkout/form-billing.php:31
+msgid "Billing &amp; Shipping"
+msgstr "Оплата &amp; Доставка"
+
+#: woocommerce/checkout/form-billing.php:35
+msgid "Billing Details"
+msgstr "Платежная информация"
+
+#: woocommerce/checkout/form-billing.php:58
+msgid "Create an account?"
+msgstr "Создать аккаунт?"
+
+#: woocommerce/checkout/form-billing.php:69
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr "Создать учетную запись, используя выше введённые данные."
+
+#: woocommerce/checkout/form-checkout.php:26
+#: woocommerce/global/form-login.php:48 woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:68
+#: woocommerce/myaccount/form-login.php:69
+msgid "Login"
+msgstr "Войти"
+
+#: woocommerce/checkout/form-checkout.php:41
+msgid "You must be logged in to checkout."
+msgstr "Вы должны войти в свой аккаунт для оплаты."
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: woocommerce/checkout/form-coupon.php:29
+msgid "Have a coupon?"
+msgstr "Имеете код купона?"
+
+#: woocommerce/checkout/form-coupon.php:29
+msgid "Click here to enter your code"
+msgstr "Нажмите для ввода вашего кода"
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr "Номер купона"
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr "Уже покупали у нас?"
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Click here to login"
+msgstr "Нажмите чтобы войти"
+
+#: woocommerce/checkout/form-login.php:31
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr "Если Вы раньше делали заказ, войдите в свой аккаунт."
+
+#: woocommerce/checkout/form-shipping.php:31
+msgid "Ship to a different address?"
+msgstr "Отправить на другой адрес?"
+
+#: woocommerce/checkout/form-shipping.php:65
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/order/order-details.php:32
+msgid "Product"
+msgstr "Товар"
+
+#: woocommerce/global/form-login.php:37 woocommerce/myaccount/form-login.php:56
+#: woocommerce/myaccount/form-lost-password.php:37
+msgid "Username or email"
+msgstr "Логин или email"
+
+#: woocommerce/global/form-login.php:38
+msgid "Enter your name or email, please"
+msgstr "Введите ваш логин или email"
+
+#: woocommerce/global/form-login.php:41 woocommerce/myaccount/form-login.php:60
+#: woocommerce/myaccount/form-login.php:109
+msgid "Password"
+msgstr "Пароль"
+
+#: woocommerce/global/form-login.php:42 woocommerce/myaccount/form-login.php:61
+#: woocommerce/myaccount/form-login.php:110
+msgid "Enter your password, please"
+msgstr "Введите ваш пароль"
+
+#: woocommerce/global/form-login.php:53 woocommerce/myaccount/form-login.php:74
+msgid "Remember me"
+msgstr "Напомнить"
+
+#: woocommerce/global/form-login.php:56 woocommerce/myaccount/form-login.php:76
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid "Lost your password?"
+msgstr "Забыли свой пароль?"
+
+#: woocommerce/global/quantity-input.php:27
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Кол-во"
+
+#: woocommerce/loop/no-products-found.php:31
+msgid "There are no products matching the selection."
+msgstr "Нет товаров соответствующих заданному фильтру."
+
+#: woocommerce/loop/pagination.php:76
+msgid "Load more"
+msgstr "Загрузить ещё"
+
+#: woocommerce/myaccount/downloads.php:29
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: woocommerce/myaccount/downloads.php:64
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:72
+msgid "Never"
+msgstr "Никогда"
+
+#: woocommerce/myaccount/downloads.php:80
+msgid "Download"
+msgstr "Загрузить"
+
+#: woocommerce/myaccount/downloads.php:102
+msgid "No downloads available yet."
+msgstr "Нет доступных загрузок."
+
+#: woocommerce/myaccount/downloads.php:106 woocommerce/myaccount/orders.php:124
+msgid "Go Shop"
+msgstr "В магазин"
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "First name"
+msgstr "Имя"
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Enter your first name, please"
+msgstr "Введите Ваше имя"
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "Last name"
+msgstr "Фамилия"
+
+#: woocommerce/myaccount/form-edit-account.php:35
+msgid "Enter your last name, please"
+msgstr "Введите вашу фамилию"
+
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:102
+msgid "Email address"
+msgstr "Адрес Email"
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Enter your email address, please"
+msgstr "Введите ваш email"
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "Password Change"
+msgstr "Изменить пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Текущий пароль (оставьте пустым, чтобы оставить без изменений)"
+
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "Enter your current password, please"
+msgstr "Введите ваш текущий пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:52
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "Новый пароль (оставьте пустым, чтобы оставить без изменений)"
+
+#: woocommerce/myaccount/form-edit-account.php:53
+msgid "Enter your new password, please"
+msgstr "Введите новый пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:56
+msgid "Confirm New Password"
+msgstr "Подтвердить новый пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:57
+msgid "Confirm your new password, please"
+msgstr "Подтвердите новый пароль"
+
+#: woocommerce/myaccount/form-edit-account.php:65
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:56
+msgid "Billing Address"
+msgstr "Адрес оплаты"
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:61
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+#: woocommerce/myaccount/form-edit-address.php:53
+msgid "Save Address"
+msgstr "Сохранить адрес"
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:123
+msgid "Register"
+msgstr "Регистрация"
+
+#: woocommerce/myaccount/form-login.php:57
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Enter your username or email, please"
+msgstr "Введите логин или email"
+
+#: woocommerce/myaccount/form-login.php:95
+msgid "Username"
+msgstr "Логин"
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Enter your username, please"
+msgstr "Введите ваш логин"
+
+#: woocommerce/myaccount/form-login.php:103
+msgid "Enter your email, please"
+msgstr "Введите ваш email"
+
+#: woocommerce/myaccount/form-login.php:116
+msgid "Anti-spam"
+msgstr "Анти-спам"
+
+#: woocommerce/myaccount/form-lost-password.php:34
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+"Введите Ваш логин или e-mail. Вы получите ссылку для создания нового пароля "
+"по e-mail."
+
+#: woocommerce/myaccount/form-lost-password.php:47
+msgid "Reset Password"
+msgstr "Сбросить пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:27
+msgid "Enter a new password below."
+msgstr "Введите новый пароль ниже."
+
+#: woocommerce/myaccount/form-reset-password.php:35
+msgid "New password"
+msgstr "Новый пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:36
+msgid "Enter new password, please"
+msgstr "Введите новый пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:39
+msgid "Re-enter new password"
+msgstr "Повторите новый пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:40
+msgid "Re-enter your password, please"
+msgstr "Повторите Ваш пароль"
+
+#: woocommerce/myaccount/form-reset-password.php:52
+msgid "Save"
+msgstr "Сохранить"
+
+#: woocommerce/myaccount/lost-password-confirmation.php:27
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+#: woocommerce/myaccount/lost-password-confirmation.php:31
+msgid "Password reset email has been sent."
+msgstr "Письмо для восстановления пароля было отправлено."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:34
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+"Письмо для восстановления пароля было отправлено на адрес электронной почты, "
+"указанный для Вашей учетной записи. Может занять несколько минут, пока "
+"письмо дойдет в ваш почтовый ящик. Пожалуйста, подождите как минимум 10 "
+"минут перед следующей попыткой сбросить."
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Этот адрес будет использоваться на странице оформления заказа по умолчанию."
+
+#: woocommerce/myaccount/my-address.php:70
+msgid "You have not set up this type of address yet."
+msgstr "Вы ещё не задали адрес."
+
+#: woocommerce/myaccount/orders.php:53
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s за %s товар"
+msgstr[1] "%s за %s товар"
+msgstr[2] "%s за %s товар"
+
+#: woocommerce/myaccount/orders.php:70
+msgid "Pay"
+msgstr "Оплата"
+
+#: woocommerce/myaccount/orders.php:74
+msgid "View"
+msgstr "Смотреть"
+
+#: woocommerce/myaccount/orders.php:109
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: woocommerce/myaccount/orders.php:113
+msgid "Next"
+msgstr "Следующий"
+
+#: woocommerce/myaccount/orders.php:121
+msgid "No order has been made yet."
+msgstr "Заказ ещё не выполнен."
+
+#: woocommerce/order/order-again.php:25
+msgid "Order Again"
+msgstr "Заказать Снова"
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Customer Details"
+msgstr "Сведения о Клиенте"
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Note:"
+msgstr "Заметка:"
+
+#: woocommerce/order/order-details-customer.php:39
+msgid "E-mail:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:46
+msgid "Telephone:"
+msgstr "Телефон:"
+
+#: woocommerce/order/order-details.php:28
+msgid "Order Details"
+msgstr "Детали заказа"
+
+#: woocommerce/product-searchform.php:26
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "Искать Товары&hellip;"
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: woocommerce/single-product-reviews.php:60
+msgid "There are no reviews yet."
+msgstr "Пока нет отзывов."
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Add a review"
+msgstr "Добавить отзыв"
+
+#: woocommerce/single-product-reviews.php:73
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Оставьте отзыв первым &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Your Review"
+msgstr "Ваш отзыв"
+
+#: woocommerce/single-product-reviews.php:93
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a> чтобы оставить отзыв."
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Rating"
+msgstr "Ваш Рейтинг"
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Rate&hellip;"
+msgstr "Оценить&hellip;"
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Perfect"
+msgstr "Прекрасно"
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Good"
+msgstr "Хорошо"
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Average"
+msgstr "Средне"
+
+#: woocommerce/single-product-reviews.php:105
+msgid "Not that bad"
+msgstr "Не плохо"
+
+#: woocommerce/single-product-reviews.php:106
+msgid "Very Poor"
+msgstr "Очень плохо"
+
+#: woocommerce/single-product-reviews.php:125
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "Только авторизированные пользователи могут оставить отзыв."
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Этого товара в настоящее время нет в наличии."
+
+#: woocommerce/single-product/add-to-cart/variable.php:39
+msgid "Clear"
+msgstr "Сброс"
+
+#: woocommerce/single-product/product-image.php:55
+msgid "Placeholder"
+msgstr "Метка"
+
+#: woocommerce/single-product/related.php:48
+msgid "Related Products"
+msgstr "Похожие Товары"
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your review is awaiting approval"
+msgstr "Ваш комментарий ожидает одобрения"
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr "подтвержденный владелец"
+
+#: woocommerce/single-product/up-sells.php:32
+msgid "You may also like&hellip;"
+msgstr "Вам также может понравиться like&hellip;"

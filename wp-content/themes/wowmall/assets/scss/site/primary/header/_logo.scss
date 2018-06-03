@@ -1,0 +1,13 @@
+.logo {
+	margin: 0;
+	display: flex;
+	.header-layout-3 & {
+		justify-content: center;
+	}
+	&-link {
+		text-decoration: none;
+		img {
+			display: block;
+		}
+	}
+}

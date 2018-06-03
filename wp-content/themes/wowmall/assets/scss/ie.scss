@@ -1,0 +1,35 @@
+html {
+	display: block;
+	height: auto;
+}
+
+body {
+	display: block;
+	&.woocommerce-account.page-my-account {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		#page {
+			flex: 1 0 auto;
+		}
+	}
+}
+
+.header-sticky-wrapper {
+	transition: none;
+	.stuck-header & {
+		transition: transform .3s ease, opacity .3s ease, box-shadow .3s ease;
+	}
+}
+
+
+.swiper-slide {
+	&.swiper-slide-visible {
+		& + .swiper-slide:not(.swiper-slide-visible) {
+			&,
+			& + .swiper-slide {
+				opacity: 0;
+			}
+		}
+	}
+}

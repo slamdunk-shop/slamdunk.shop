@@ -1,0 +1,21 @@
+.share-btns__list {
+	display: inline-flex;
+	align-items: center;
+	.share-btns__list-inner {
+		display: flex;
+	}
+	.share-btns__link {
+		display: block;
+		.woocommerce div.product & {
+			border-radius: 1000px;
+			font-size: .7777777777777778rem;
+			color: #fff;
+			width: 39px;
+			line-height: 39px;
+			text-align: center;
+			margin: 0 5px 5px 0;
+			background-color: #434343;
+			transition: background-color .3s ease;
+		}
+	}
+}

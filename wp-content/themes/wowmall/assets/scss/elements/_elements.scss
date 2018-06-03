@@ -1,0 +1,72 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+	quotes: "" "";
+	text-transform: uppercase;
+	font-weight: 700;
+	&:before,
+	&:after {
+		content: none;
+	}
+}
+
+address {
+	font-style: inherit;
+}
+
+blockquote {
+	margin: 29px 0 23px;
+	padding: 0 0 0 119px;
+	position: relative;
+	letter-spacing: 0.0572222222222222em;
+	&:before {
+		content: '\e8cd';
+		font-family: 'myfont';
+		position: absolute;
+		font-size: 3.333333333333333rem;
+		top: 11px;
+		left: 42px;
+		font-weight: normal;
+	}
+	cite {
+		text-transform: none;
+		font-style: normal;
+		font-weight: normal;
+		letter-spacing: 0;
+		display: block;
+		margin: 12px 0 0;
+		&:before {
+			content: '—';
+			padding-right: 2px;
+		}
+	}
+}
+
+hr {
+	background-color: #e4e4e4;
+	border: 0;
+	height: 1px;
+	margin: 2.95em 0 3em;
+}
+
+/*--------------------------------------------------------------
+## Lists
+--------------------------------------------------------------*/
+@import "lists";
+
+/*--------------------------------------------------------------
+## Tables
+--------------------------------------------------------------*/
+@import "tables";

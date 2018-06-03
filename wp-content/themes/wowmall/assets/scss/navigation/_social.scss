@@ -1,0 +1,152 @@
+.social-media-profiles-menu {
+	margin: 0 0 36px;
+	display: flex;
+	flex-wrap: wrap;
+	ul.menu {
+		display: inline-flex;
+		list-style: none;
+		> li {
+			padding: 0;
+			&:before {
+				content: none;
+			}
+			a {
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+	a {
+		margin: 0 5px 5px 0;
+		display: block;
+		text-align: center;
+		width: 2.166666666666667rem;
+		line-height: 2.166666666666667rem;
+		border-radius: 1000px;
+		position: relative;
+		overflow: hidden;
+		color: #fff;
+		background-color: #434343;
+		text-indent: 999em;
+		font-size: .7777777777777778rem;
+		transition: background-color .3s ease, color .3s ease;
+		&:before {
+			font-family: 'myfont';
+			position: absolute;
+			line-height: 0;
+			margin: 0;
+			height: auto;
+			width: 100%;
+			text-align: center;
+			top: 52%;
+			left: 0;
+			display: block;
+			text-indent: 0;
+		}
+		&[href*="facebook.com"] {
+			&:before {
+				content: '\f09a';
+			}
+		}
+		&[href*="twitter.com"] {
+			&:before {
+				content: '\f099';
+			}
+		}
+		&[href*="plus.google.com"] {
+			&:before {
+				content: '\f0d5';
+			}
+		}
+		&[href*="instagram.com"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f16d';
+			}
+		}
+		&[href*="pinterest.com"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f0d2';
+			}
+		}
+		&[href*="linkedin.com"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f0e1';
+			}
+		}
+		&[href*="vimeo.com"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f27d';
+			}
+		}
+		&[href*="foursquare.com"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f180';
+			}
+		}
+		&[href*="vk.com"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f189';
+			}
+		}
+		&[href*="ok.ru"] {
+			font-size: .8888888888888889rem;
+			&:before {
+				content: '\f263';
+			}
+		}
+		&[href*="youtube.com"] {
+			font-size: 1.1rem;
+			&:before {
+				content: '\f167';
+			}
+
+		}
+		&[href^="mailto:"] {
+			&:before {
+				content: '\e896';
+			}
+
+		}
+		&:hover {
+			color: #fff;
+		}
+		#colophon & {
+			&:hover {
+				background: #fff;
+			}
+			&:focus {
+				body.focus-styles & {
+					background: #fff;
+				}
+			}
+		}
+	}
+	.wowmall_widget_follow & {
+		padding-bottom: 9px;
+	}
+	&.centered {
+		justify-content: center;
+	}
+}
+
+#menu-all-social-media-profiles {
+	justify-content: center;
+}
+
+.wpb_content_element.team-member {
+	padding-bottom: 25px;
+	h4 {
+		margin-top: 24px;
+		margin-bottom: 0;
+	}
+	p {
+		margin-top: 0;
+	}
+}

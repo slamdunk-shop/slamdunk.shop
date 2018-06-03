@@ -1,0 +1,85 @@
+.wbc_importer h3.theme-name{
+	line-height: 1.3;
+	border:none;
+	position: relative;
+	overflow: visible !important;
+}
+
+.wbc_importer h3.theme-name progress {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	height: 5px;
+	border: none;
+	width: 100%;
+	z-index: 10;
+	-webkit-appearance: none;
+}
+
+.wbc_importer h3.theme-name progress::-webkit-progress-bar {
+	background-color: whiteSmoke;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+}
+
+.wbc_importer h3.theme-name progress::-webkit-progress-value {
+	background: #0085ba;
+}
+
+.wbc_importer h3.theme-name progress::-moz-progress-bar {
+	background-color: whiteSmoke;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+}
+
+.wbc_importer .theme-actions{
+   opacity: 1 !important;
+}
+
+.wbc_importer .theme-browser .theme .theme-screenshot img{
+	max-width: none !important;
+	width:100% !important;
+}
+.wbc_importer .theme-browser .theme:focus .more-details, 
+.wbc_importer .theme-browser .theme:hover .more-details {
+	opacity: 1;
+}
+
+.wbc_importer .theme-browser .theme .spinner {
+	background-position: right center;
+	font-size: 12px;
+	height: 20px;
+	margin-right: 0;
+	padding-right: 25px;
+	padding-top: 5px;
+	width: auto;
+	visibility: visible;
+	display: none;
+}
+
+.wbc_importer .importer-button{
+	margin-top:0;
+}
+
+.wbc_importer #wbc-importer-reimport{
+	margin-left:4px;
+	display: none;
+}
+
+.wbc_importer .theme-browser .theme:hover #wbc-importer-reimport{
+	display: inline-block;
+}
+
+.wbc-importer-info{
+	background-color: #fff;
+	border-left: 4px solid orange;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	padding: 1px 12px;
+}
+
+.theme-browser .theme.wrap-importer .theme-actions {
+	top: auto !important;
+	bottom: 0;
+	-webkit-transform: none !important;
+	transform: none !important;
+	background: none !important;
+}

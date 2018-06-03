@@ -1,0 +1,111 @@
+ul.page-numbers {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0 40px;
+	@include media-breakpoint-up(sm) {
+		margin: 10px 0 80px;
+	}
+	.tax-gallery-cat &,
+	.page-gallery & {
+		margin-top: 55px;
+	}
+	.woocommerce & {
+		justify-content: flex-start;
+		margin-top: 0;
+	}
+	span,
+	a {
+		display: block;
+		min-width: 26px;
+		padding: 0 2px;
+		outline: 1px solid #e4e4e4;
+		outline-offset: -1px;
+		text-align: center;
+		font-size: .7777777777777778rem;
+		color: inherit;
+		@include media-breakpoint-up(sm) {
+			min-width: 40px;
+			padding: 7px;
+		}
+		&.current {
+			color: #fff;
+			outline: none;
+		}
+		i {
+			font-size: .8888888888888889rem;
+			display: block;
+			&:before {
+				margin: 0;
+				width: auto;
+			}
+		}
+	}
+	a {
+		transition: color .3s ease, outline-color .3s ease;
+		&:hover,
+		&:focus {
+			outline-offset: -2px;
+			outline-width: 2px;
+		}
+	}
+	> li {
+		&,
+		.entry-content & {
+			padding: 0;
+			margin: 0;
+			&:before {
+				content: none;
+			}
+			& + li {
+				margin: 0 0 0 2px;
+				@include media-breakpoint-up(sm) {
+					margin: 0 0 0 10px;
+				}
+			}
+		}
+	}
+}
+
+div.page-numbers {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0 20px;
+	clear: both;
+	> span,
+	> a {
+		display: block;
+		min-width: 26px;
+		padding: 0 2px;
+		outline: 1px solid #e4e4e4;
+		outline-offset: -1px;
+		text-align: center;
+		font-size: .7777777777777778rem;
+		margin: 0 2px 0 0;
+		@include media-breakpoint-up(sm) {
+			min-width: 40px;
+			padding: 7px;
+			margin: 0 10px 0 0;
+		}
+		i {
+			font-size: .8888888888888889rem;
+			display: block;
+			&:before {
+				margin: 0;
+				width: auto;
+			}
+		}
+	}
+	> span {
+		color: #fff;
+		outline: none;
+	}
+	> a {
+		transition: color .3s ease, outline-color .3s ease;
+		color: inherit;
+		&:hover,
+		&:focus {
+			outline-offset: -2px;
+			outline-width: 2px;
+		}
+	}
+}

@@ -1,0 +1,134 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+.single-post {
+	#comments {
+		border-top: 1px solid #e4e4e4;
+		padding: 7px 0 0;
+		margin-bottom: 80px;
+	}
+	.commentlist + #respond {
+		border-top: 1px solid #e4e4e4;
+		margin: 56px 0 0;
+	}
+	#respond {
+		padding: 29px 0 0;
+	}
+}
+#comments {
+	&,
+	.woocommerce #reviews & {
+		ol.commentlist {
+			li {
+				padding: 23px 0 0;
+				margin: 0 0 4px;
+				.comment_container {
+					display: flex;
+					align-items: flex-start;
+				}
+				img.avatar {
+					padding: 0;
+					border: none;
+					width: auto;
+					border-radius: 1000px;
+					position: static;
+					margin: 7px 18px 10px 0;
+					float: none;
+				}
+				.comment-text {
+					border: none;
+					padding: 0;
+					margin: 0;
+					display: flex;
+					flex-wrap: wrap;
+					flex: 1 1 auto;
+					position: relative;
+					> * {
+						&:not(.star-rating) {
+							width: 100%;
+						}
+					}
+					p {
+						margin-top: 0;
+					}
+					div.meta {
+						color: inherit;
+						font-size: .7777777777777778rem;
+						order: -1;
+						margin: 0 0 2px;
+						a {
+							color: inherit;
+						}
+					}
+					&:before,
+					&:after {
+						content: none;
+					}
+					.star-rating {
+						margin: 4px 0 8px;
+					}
+					.reply {
+						position: absolute;
+						top: 7px;
+						right: 3px;
+						overflow: hidden;
+						width: 1em;
+						height: 1em;
+						text-indent: -999px;
+						a {
+							font-size: 0;
+							line-height: 0;
+							color: #a3a3a3;
+							&:before {
+								position: absolute;
+								top: 0;
+								left: 0;
+								text-indent: 0;
+								content: '\e8fe';
+								font-family: 'myfont';
+								font-size: .8888888888888889rem;
+								line-height: 1;
+							}
+						}
+					}
+				}
+			}
+			ol.children {
+				margin: -14px 0 16px 20px;
+				@include media-breakpoint-up(md) {
+					margin: -14px 0 16px 90px;
+				}
+			}
+		}
+	}
+	ol.commentlist {
+		li {
+			.comment-text {
+				padding: 0 60px 0 0;
+			}
+		}
+	}
+	.comment-notes {
+		margin-bottom: 24px;
+	}
+}
+#comment {
+	&,
+	.woocommerce #reviews & {
+		height: 119px;
+		resize: vertical;
+		margin: 2px 0 10px;
+	}
+}
+#respond p {
+	&,
+	.woocommerce #review_form & {
+		margin: 0 0 14px;
+		&.comment-form-comment {
+			margin-bottom: 30px;
+		}
+	}
+}

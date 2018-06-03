@@ -1,0 +1,722 @@
+# Copyright (C) 2016 TODO
+# This file is distributed under the same license as the TODO package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wowmall Shortcodes\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/tm-woocommerce-package\n"
+"POT-Creation-Date: 2017-05-08 20:02+0800\n"
+"PO-Revision-Date: 2017-05-13 20:58+0800\n"
+"Language-Team: TonyTemplates\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/brands.php:104
+msgctxt "taxonomy general name"
+msgid "Brands"
+msgstr "Бренды"
+
+#: inc/brands.php:105
+msgctxt "taxonomy singular name"
+msgid "Brand"
+msgstr "Бренд"
+
+#: inc/brands.php:106
+msgid "Search Brands"
+msgstr "Искать бренды"
+
+#: inc/brands.php:107
+msgid "All Brands"
+msgstr "Все бренды"
+
+#: inc/brands.php:108
+msgid "Edit Brand"
+msgstr "Редактировать бренд"
+
+#: inc/brands.php:109
+msgid "Update Brand"
+msgstr "Обновить бренд"
+
+#: inc/brands.php:110
+msgid "Add New Brand"
+msgstr "Добавить новый бренд"
+
+#: inc/brands.php:111
+msgid "New Brand Name"
+msgstr "Имя нового бренда"
+
+#: inc/brands.php:112
+msgid "Brands"
+msgstr "Бренды"
+
+#: inc/brands.php:154 inc/gallery.php:200
+msgid "Choose an image"
+msgstr "Выбрать изображение"
+
+#: inc/brands.php:178 inc/brands.php:213 inc/brands.php:261 inc/gallery.php:585
+#: inc/gallery.php:637 inc/gallery.php:692
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: inc/brands.php:182 inc/brands.php:218 inc/gallery.php:589
+#: inc/gallery.php:645
+msgid "Upload/Add image"
+msgstr "Загрузить/Добавить изображение"
+
+#: inc/brands.php:183 inc/brands.php:219 inc/gallery.php:590
+#: inc/gallery.php:647
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: inc/brands.php:244 inc/gallery.php:675 inc/gallery.php:966
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/brands.php:422
+msgid "Brand"
+msgstr "Бренд"
+
+#: inc/brands.php:533
+msgid "Wowmall Brands Carousel"
+msgstr ""
+
+#: inc/brands.php:535
+msgid "Add Brands Carousel shortcode"
+msgstr ""
+
+#: inc/brands.php:536 inc/collection.php:92 inc/compare.php:414
+#: inc/follow.php:37 inc/gallery.php:989 inc/lookbook.php:272
+#: inc/mailchimp.php:37 inc/posts-carousel.php:156
+#: inc/products-carousel.php:229 inc/slider.php:148 inc/slider.php:177
+#: inc/wishlist.php:461
+msgid "Wowmall"
+msgstr ""
+
+#: inc/brands.php:541 inc/gallery.php:1033 inc/posts-carousel.php:161
+#: inc/products-carousel.php:234
+msgid "Title"
+msgstr ""
+
+#: inc/brands.php:547 inc/posts-carousel.php:167 inc/products-carousel.php:240
+msgid "Title Align"
+msgstr ""
+
+#: inc/brands.php:550 inc/posts-carousel.php:170 inc/products-carousel.php:243
+msgid "Left"
+msgstr "Слева"
+
+#: inc/brands.php:551 inc/posts-carousel.php:171 inc/products-carousel.php:244
+msgid "Center"
+msgstr "По центру"
+
+#: inc/brands.php:552 inc/posts-carousel.php:172 inc/products-carousel.php:245
+msgid "Right"
+msgstr "Справа"
+
+#: inc/brands.php:557
+msgid "Number of products to show"
+msgstr "Кол-во товаров показывать"
+
+#: inc/brands.php:572 inc/posts-carousel.php:221 inc/products-carousel.php:322
+#: inc/slider.php:158
+msgid "Extra class name"
+msgstr ""
+
+#: inc/brands.php:574 inc/posts-carousel.php:223 inc/products-carousel.php:324
+#: inc/slider.php:160
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: inc/brands.php:578 inc/posts-carousel.php:227 inc/products-carousel.php:328
+#: inc/slider.php:164
+msgid "Css Box"
+msgstr ""
+
+#: inc/brands.php:580 inc/posts-carousel.php:229 inc/products-carousel.php:330
+#: inc/slider.php:166
+msgid "Design options"
+msgstr ""
+
+#: inc/collection.php:89
+msgid "Wowmall Products Collection"
+msgstr ""
+
+#: inc/collection.php:91
+msgid "Add Products Collection shortcode"
+msgstr ""
+
+#: inc/compare.php:91
+msgid "Remove from Compare"
+msgstr "Удалить из Сравнения"
+
+#: inc/compare.php:96 wowmall-shortcodes.php:118
+msgid "Add to Compare"
+msgstr "Добавить для Сравнения"
+
+#: inc/compare.php:190
+msgid "No products were added to the compare"
+msgstr "Товары не  добавлены для сравнения"
+
+#: inc/compare.php:325
+msgid "Description"
+msgstr "Описание"
+
+#: inc/compare.php:326
+msgid "Availability"
+msgstr "Наличие"
+
+#: inc/compare.php:411
+msgid "Wowmall Compare"
+msgstr ""
+
+#: inc/compare.php:413
+msgid "Add Compare page shortcode"
+msgstr ""
+
+#: inc/compare.php:517 inc/wishlist.php:396
+msgid "In stock"
+msgstr "В наличии"
+
+#: inc/follow.php:34
+msgid "Wowmall Follow"
+msgstr ""
+
+#: inc/follow.php:36
+msgid "Add Social Media Profiles links anywhere"
+msgstr ""
+
+#: inc/gallery.php:222 inc/gallery.php:223
+msgid "Gallery"
+msgstr "Галерея"
+
+#: inc/gallery.php:224 inc/lookbook.php:90
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: inc/gallery.php:225
+msgid "Add New Gallery"
+msgstr "Добавить новую галерею"
+
+#: inc/gallery.php:226
+msgid "Edit Gallery"
+msgstr "Редактировать галерею"
+
+#: inc/gallery.php:227
+msgid "New Gallery"
+msgstr "Новая галерея"
+
+#: inc/gallery.php:228
+msgid "View Gallery"
+msgstr "Просмотр Галереи"
+
+#: inc/gallery.php:229
+msgid "Search Gallery"
+msgstr "Искать Галерею"
+
+#: inc/gallery.php:230
+msgid "No Gallery found"
+msgstr "Галерея не найдена"
+
+#: inc/gallery.php:231
+msgid "No Gallery found in Trash"
+msgstr "Галерея не найдена в Корзине"
+
+#: inc/gallery.php:262
+msgid "Search Gallery Categories"
+msgstr "Искать Категорию Галереи"
+
+#: inc/gallery.php:263
+msgid "All Gallery Categories"
+msgstr "Все Категории Галерей"
+
+#: inc/gallery.php:264
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: inc/gallery.php:265
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: inc/gallery.php:266
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: inc/gallery.php:267
+msgid "Update Gallery Category"
+msgstr ""
+
+#: inc/gallery.php:268
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: inc/gallery.php:269
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: inc/gallery.php:270
+msgid "Gallery Category"
+msgstr ""
+
+#: inc/gallery.php:399
+#, php-format
+msgid "%s Photo"
+msgid_plural "%s Photos"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/gallery.php:576 inc/gallery.php:622
+msgid "Display type"
+msgstr ""
+
+#: inc/gallery.php:578 inc/gallery.php:626
+msgid "Default"
+msgstr ""
+
+#: inc/gallery.php:579 inc/gallery.php:628 inc/gallery.php:1019
+msgid "Images"
+msgstr ""
+
+#: inc/gallery.php:580 inc/gallery.php:630 inc/gallery.php:1020
+msgid "Subcategories"
+msgstr ""
+
+#: inc/gallery.php:581 inc/gallery.php:632
+msgid "Both"
+msgstr ""
+
+#: inc/gallery.php:954
+msgid "Sort Gallery"
+msgstr ""
+
+#: inc/gallery.php:986
+msgid "Wowmall Gallery"
+msgstr ""
+
+#: inc/gallery.php:988
+msgid "Set Gallery"
+msgstr ""
+
+#: inc/gallery.php:993
+msgid "Gallery Layout Type"
+msgstr ""
+
+#: inc/gallery.php:996
+msgid "Masonry"
+msgstr ""
+
+#: inc/gallery.php:997
+msgid "Grid"
+msgstr ""
+
+#: inc/gallery.php:999
+msgid "Gallery Layout Type. Grid or Masonry"
+msgstr ""
+
+#: inc/gallery.php:1000 inc/gallery.php:1011 inc/gallery.php:1023
+msgid "Layout"
+msgstr ""
+
+#: inc/gallery.php:1004
+msgid "Gallery Columns"
+msgstr ""
+
+#: inc/gallery.php:1007 inc/gallery.php:1008
+#, php-format
+msgid "%s Columns"
+msgstr ""
+
+#: inc/gallery.php:1010
+msgid "Gallery Columns. 3 or 4"
+msgstr ""
+
+#: inc/gallery.php:1015
+msgid "Display Type"
+msgstr ""
+
+#: inc/gallery.php:1018
+msgid "Images and Subcategories"
+msgstr ""
+
+#: inc/gallery.php:1022
+msgid "Display Type. Can be Images, Subcategories or Both."
+msgstr ""
+
+#: inc/gallery.php:1027
+msgid "Order By"
+msgstr "Заказан"
+
+#: inc/gallery.php:1030
+msgid "Menu order"
+msgstr "Меню заказа"
+
+#: inc/gallery.php:1031 inc/posts-carousel.php:206
+#: inc/products-carousel.php:305
+msgid "Date"
+msgstr "Дата"
+
+#: inc/gallery.php:1032
+msgid "ID"
+msgstr ""
+
+#: inc/gallery.php:1035
+msgid "Select order type."
+msgstr "Выбрать тип заказа."
+
+#: inc/gallery.php:1036 inc/gallery.php:1047 inc/gallery.php:1055
+msgid "Ordering"
+msgstr ""
+
+#: inc/gallery.php:1040
+msgid "Sort Order"
+msgstr "Сортировать Заказы"
+
+#: inc/gallery.php:1043
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: inc/gallery.php:1044
+msgid "Descending"
+msgstr "По убыванию"
+
+#: inc/gallery.php:1046
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/gallery.php:1051
+msgid "Posts per Page"
+msgstr "Постов на Странице"
+
+#: inc/gallery.php:1054
+msgid "Leave blank to use default value. To show all posts insert \"-1\""
+msgstr ""
+
+#: inc/lookbook.php:88 inc/lookbook.php:89
+msgid "Lookbook"
+msgstr ""
+
+#: inc/lookbook.php:91
+msgid "Add New Lookbook"
+msgstr ""
+
+#: inc/lookbook.php:92
+msgid "Edit Lookbook"
+msgstr ""
+
+#: inc/lookbook.php:93
+msgid "New Lookbook"
+msgstr ""
+
+#: inc/lookbook.php:94
+msgid "View Lookbook"
+msgstr ""
+
+#: inc/lookbook.php:95
+msgid "Search Lookbook"
+msgstr ""
+
+#: inc/lookbook.php:96
+msgid "No Lookbook found"
+msgstr ""
+
+#: inc/lookbook.php:97
+msgid "No Lookbook found in Trash"
+msgstr ""
+
+#: inc/lookbook.php:121
+msgid "Lookbook Slider"
+msgstr ""
+
+#: inc/lookbook.php:142
+msgid "Select Product"
+msgstr "Выбрать Товар"
+
+#: inc/lookbook.php:166 inc/new-products.php:173
+msgid "Cancel"
+msgstr "Отмена"
+
+#: inc/lookbook.php:168
+msgid "Ok"
+msgstr ""
+
+#: inc/lookbook.php:170
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/lookbook.php:269
+msgid "Wowmall LookBook"
+msgstr ""
+
+#: inc/lookbook.php:271
+msgid "Set LookBook"
+msgstr ""
+
+#: inc/lookbook.php:276
+msgid "LookBook Post"
+msgstr ""
+
+#: inc/lookbook.php:279
+msgid "Select LookBook Post"
+msgstr ""
+
+#: inc/lookbook.php:332
+msgid "Qty:"
+msgstr ""
+
+#: inc/mailchimp.php:34
+msgid "Wowmall MailChimp"
+msgstr ""
+
+#: inc/mailchimp.php:36
+msgid "Add MailChimp form (for footer)"
+msgstr ""
+
+#: inc/new-products.php:43 inc/new-products.php:147 inc/new-products.php:188
+msgid "New"
+msgstr "Новинка"
+
+#: inc/new-products.php:67
+msgid "Toggle new"
+msgstr ""
+
+#: inc/new-products.php:69 inc/products-carousel.php:280
+msgid "Yes"
+msgstr "Да"
+
+#: inc/new-products.php:71
+msgid "No"
+msgstr "Нет"
+
+#: inc/new-products.php:140
+msgid "Catalog visibility:"
+msgstr ""
+
+#: inc/new-products.php:144
+msgid "Featured"
+msgstr ""
+
+#: inc/new-products.php:151
+msgid "Edit"
+msgstr ""
+
+#: inc/new-products.php:159
+msgid ""
+"Choose where this product should be displayed in your catalog. The product "
+"will always be accessible directly."
+msgstr ""
+
+#: inc/new-products.php:165
+msgid "Enable this option to feature this product."
+msgstr ""
+
+#: inc/new-products.php:167
+msgid "Featured product"
+msgstr ""
+
+#: inc/new-products.php:168
+msgid "Enable this option to mark this as a new product."
+msgstr ""
+
+#: inc/new-products.php:169
+msgid "New Product"
+msgstr "Новый Товар"
+
+#: inc/new-products.php:172
+msgid "OK"
+msgstr ""
+
+#: inc/optimize.php:281
+msgid "Product"
+msgstr "Товар"
+
+#: inc/posts-carousel.php:153
+msgid "Wowmall Posts Carousel"
+msgstr ""
+
+#: inc/posts-carousel.php:155
+msgid "Add Posts Carousel shortcode"
+msgstr ""
+
+#: inc/posts-carousel.php:177
+msgid "Number of visible posts"
+msgstr "Кол-во видимых постов"
+
+#: inc/posts-carousel.php:188 inc/products-carousel.php:285
+msgid "Show"
+msgstr "Показать"
+
+#: inc/posts-carousel.php:191
+msgid "All Posts"
+msgstr "Все Посты"
+
+#: inc/posts-carousel.php:192
+msgid "Featured Posts"
+msgstr "Популярные Посты"
+
+#: inc/posts-carousel.php:197
+msgid "Exclude Post formats"
+msgstr ""
+
+#: inc/posts-carousel.php:203 inc/products-carousel.php:302
+msgid "Order by"
+msgstr "Заказан"
+
+#: inc/posts-carousel.php:207 inc/products-carousel.php:307
+msgid "Random"
+msgstr "Случайно"
+
+#: inc/posts-carousel.php:212 inc/products-carousel.php:313
+msgid "Order"
+msgstr "Заказ"
+
+#: inc/posts-carousel.php:215 inc/products-carousel.php:316
+msgid "ASC"
+msgstr ""
+
+#: inc/posts-carousel.php:216 inc/products-carousel.php:317
+msgid "DESC"
+msgstr ""
+
+#: inc/products-carousel.php:224
+msgid "All"
+msgstr "Все"
+
+#: inc/products-carousel.php:226
+msgid "Wowmall Products Carousel"
+msgstr ""
+
+#: inc/products-carousel.php:228
+msgid "Add Products Carousel shortcode"
+msgstr ""
+
+#: inc/products-carousel.php:250
+msgid "Carousel Direction"
+msgstr ""
+
+#: inc/products-carousel.php:253
+msgid "Horizontal"
+msgstr ""
+
+#: inc/products-carousel.php:254
+msgid "Vertical"
+msgstr ""
+
+#: inc/products-carousel.php:259
+msgid "Number of visible products"
+msgstr ""
+
+#: inc/products-carousel.php:272
+msgid "Number of products"
+msgstr "Количество продуктов"
+
+#: inc/products-carousel.php:278
+msgid "Arrows"
+msgstr "Стрелки"
+
+#: inc/products-carousel.php:288
+msgid "All Products"
+msgstr "Все товары"
+
+#: inc/products-carousel.php:289
+msgid "Featured Products"
+msgstr "Рекомендуемые товары"
+
+#: inc/products-carousel.php:290
+msgid "On-sale Products"
+msgstr "Распродажа"
+
+#: inc/products-carousel.php:291
+msgid "New Products"
+msgstr "Новые Товары"
+
+#: inc/products-carousel.php:296
+msgid "Filter by Category"
+msgstr "Фильтр по Категории"
+
+#: inc/products-carousel.php:306
+msgid "Price"
+msgstr "Цена"
+
+#: inc/products-carousel.php:308
+msgid "Sales"
+msgstr "Скидки"
+
+#: inc/slider.php:144
+msgid "Wowmall Slider"
+msgstr ""
+
+#: inc/slider.php:153
+msgid "Full window mode"
+msgstr ""
+
+#: inc/slider.php:175
+msgid "Wowmall Slider Item"
+msgstr ""
+
+#: inc/slider.php:182
+msgid "Slide Image"
+msgstr ""
+
+#: inc/slider.php:187
+msgid "Slide Text"
+msgstr ""
+
+#: inc/variations.php:32 inc/variations.php:65 inc/variations.php:76
+msgid "Color"
+msgstr "Цвет"
+
+#: inc/variations.php:33
+msgid "Size"
+msgstr "Размер"
+
+#: inc/variations.php:41
+msgid "Select terms"
+msgstr "Выберите условия"
+
+#: inc/variations.php:55
+msgid "Select all"
+msgstr "Выбрать все"
+
+#: inc/variations.php:56
+msgid "Select none"
+msgstr "Сброс выбора"
+
+#: inc/variations.php:57
+msgid "Add new"
+msgstr "Добавить новый"
+
+#: inc/wishlist.php:63 wowmall-shortcodes.php:127
+msgid "Added to Wishlist"
+msgstr "Добавлены в Список желаний"
+
+#: inc/wishlist.php:68 wowmall-shortcodes.php:126
+msgid "Add to Wishlist"
+msgstr "Добавить в Список желаний"
+
+#: inc/wishlist.php:203
+msgid "No products were added to the wishlist"
+msgstr "Нет товаров в Списке желаний"
+
+#: inc/wishlist.php:458
+msgid "Wowmall Wishlist"
+msgstr ""
+
+#: inc/wishlist.php:460
+msgid "Add Wishlist page shortcode"
+msgstr ""
+
+#: wowmall-shortcodes.php:119
+msgid "Remove from Compare List"
+msgstr "Удалить из Сравнения"

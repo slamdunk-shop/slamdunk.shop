@@ -1,0 +1,21 @@
+html {
+  display: block;
+  height: auto; }
+
+body {
+  display: block; }
+  body.woocommerce-account.page-my-account {
+    height: 100%;
+    display: flex;
+    justify-content: space-between; }
+    body.woocommerce-account.page-my-account #page {
+      flex: 1 0 auto; }
+
+.header-sticky-wrapper {
+  transition: none; }
+  .stuck-header .header-sticky-wrapper {
+    transition: transform .3s ease, opacity .3s ease, box-shadow .3s ease; }
+
+.swiper-slide.swiper-slide-visible + .swiper-slide:not(.swiper-slide-visible),
+.swiper-slide.swiper-slide-visible + .swiper-slide:not(.swiper-slide-visible) + .swiper-slide {
+  opacity: 0; }

@@ -1,0 +1,186 @@
+form#checkout-coupon,
+form#checkout-login {
+  display: none !important; }
+
+@media (max-width: 991px) {
+  form.wc-fake-form {
+    margin-bottom: 30px; } }
+
+.woocommerce-checkout-review-order {
+  border-top: 1px solid #e4e4e4;
+  padding: 0 0 17px; }
+  .woocommerce-checkout-review-order h5 {
+    margin: 34px 0 13px; }
+  .woocommerce-checkout-review-order .cart_item {
+    margin: 0 0 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .woocommerce-checkout-review-order .cart_item .amount {
+      font-size: .8888888888888889rem;
+      font-weight: 700;
+      max-width: 50%;
+      margin-left: auto; }
+    .woocommerce-checkout-review-order .cart_item .variation {
+      margin: 0;
+      font-size: .7777777777777778rem;
+      line-height: 1.714285714285714; }
+      .woocommerce-checkout-review-order .cart_item .variation dt {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-weight: normal; }
+      .woocommerce-checkout-review-order .cart_item .variation dd {
+        display: inline-block;
+        margin: 0;
+        padding: 0; }
+        .woocommerce-checkout-review-order .cart_item .variation dd p {
+          margin: 0; }
+  .woocommerce-checkout-review-order h6 {
+    color: inherit;
+    margin: 0 5px 0 0; }
+
+.woocommerce .woocommerce-checkout-review-order-table table {
+  margin: 33px 0 26px; }
+  .woocommerce .woocommerce-checkout-review-order-table table tr.shipping th {
+    vertical-align: top; }
+  .woocommerce .woocommerce-checkout-review-order-table table tr.shipping ul#shipping_method {
+    margin-bottom: 10px; }
+.woocommerce div.checkout_coupon {
+  margin: 0; }
+  .woocommerce div.checkout_coupon .flex-input {
+    display: flex; }
+    .woocommerce div.checkout_coupon .flex-input input[type=text] {
+      flex: 1 0 auto;
+      margin: 0 10px 0 0; }
+.woocommerce div.login {
+  margin: 22px 0 0; }
+  .woocommerce div.login .form-row-last {
+    margin-bottom: 8px; }
+.woocommerce form.checkout_coupon, .woocommerce form.register, .woocommerce form.login {
+  border: none;
+  padding: 0;
+  margin: 0; }
+.woocommerce form p {
+  margin: .5em 0 22px; }
+.woocommerce form .form-row {
+  padding: 0;
+  margin: 22px 0 0; }
+  .woocommerce form .form-row label {
+    line-height: inherit;
+    margin: 0 0 3px; }
+  .woocommerce form .form-row.wc-terms-and-conditions {
+    margin: 0 0 22px; }
+.woocommerce form .remember-lost-pass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px 0 0; }
+.woocommerce .checkout-login-wrapper,
+.woocommerce .checkout-coupon-wrapper {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 0 0 38px;
+  margin: 0 0 40px; }
+.woocommerce .checkout-login-wrapper .form-row-first {
+  margin-top: 25px; }
+.woocommerce .checkout-coupon-wrapper {
+  margin: 0 0 30px;
+  padding: 0 0 41px; }
+
+@media (min-width: 768px) {
+  form.woocommerce-checkout {
+    margin-bottom: 80px; } }
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: none;
+  border-top: 1px solid #e4e4e4;
+  padding: 32px 0 0; }
+  #add_payment_method #payment ul.payment_methods,
+  .woocommerce-cart #payment ul.payment_methods,
+  .woocommerce-checkout #payment ul.payment_methods {
+    padding: 0 0 10px;
+    border: none; }
+    #add_payment_method #payment ul.payment_methods li,
+    .woocommerce-cart #payment ul.payment_methods li,
+    .woocommerce-checkout #payment ul.payment_methods li {
+      padding: 0 0 13px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      font: inherit; }
+      #add_payment_method #payment ul.payment_methods li input,
+      .woocommerce-cart #payment ul.payment_methods li input,
+      .woocommerce-checkout #payment ul.payment_methods li input {
+        margin-right: 7px; }
+      #add_payment_method #payment ul.payment_methods li label,
+      .woocommerce-cart #payment ul.payment_methods li label,
+      .woocommerce-checkout #payment ul.payment_methods li label {
+        display: flex;
+        flex: 1 0 auto; }
+        @media (max-width: 575px) {
+          #add_payment_method #payment ul.payment_methods li label img,
+          .woocommerce-cart #payment ul.payment_methods li label img,
+          .woocommerce-checkout #payment ul.payment_methods li label img {
+            display: none; } }
+        #add_payment_method #payment ul.payment_methods li label a,
+        .woocommerce-cart #payment ul.payment_methods li label a,
+        .woocommerce-checkout #payment ul.payment_methods li label a {
+          display: inline-block;
+          float: none;
+          line-height: inherit !important; }
+      #add_payment_method #payment ul.payment_methods li img,
+      .woocommerce-cart #payment ul.payment_methods li img,
+      .woocommerce-checkout #payment ul.payment_methods li img {
+        max-height: 26px;
+        margin: 0 10px; }
+      #add_payment_method #payment ul.payment_methods li .payment_box,
+      .woocommerce-cart #payment ul.payment_methods li .payment_box,
+      .woocommerce-checkout #payment ul.payment_methods li .payment_box {
+        font: inherit;
+        flex: 1 0 100%;
+        width: 100%;
+        background: none;
+        padding: 0;
+        margin: 4px 0 6px;
+        color: inherit; }
+        #add_payment_method #payment ul.payment_methods li .payment_box:before,
+        .woocommerce-cart #payment ul.payment_methods li .payment_box:before,
+        .woocommerce-checkout #payment ul.payment_methods li .payment_box:before {
+          content: none; }
+  #add_payment_method #payment div.form-row,
+  .woocommerce-cart #payment div.form-row,
+  .woocommerce-checkout #payment div.form-row {
+    padding: 0; }
+
+.checkout-login,
+.checkout-coupon {
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  align-items: flex-end;
+  font-size: .8888888888888889rem;
+  font-weight: 700;
+  letter-spacing: .055em; }
+  .checkout-login h3,
+  .checkout-coupon h3 {
+    margin: -10px 15px -1px 0; }
+
+.woocommerce-billing-fields h3 {
+  margin: 0 0 9px; }
+.woocommerce form .woocommerce-billing-fields .form-row {
+  margin-top: 10px; }
+  .woocommerce form .woocommerce-billing-fields .form-row label {
+    padding-top: 12px; }
+.woocommerce form .woocommerce-billing-fields .create-account {
+  padding-top: 15px; }
+  .woocommerce form .woocommerce-billing-fields .create-account p {
+    margin: 0; }
+
+@media (max-width: 991px) {
+  #customer_details,
+  .your-order {
+    margin-bottom: 40px; } }
+
+/*# sourceMappingURL=checkout.css.map */

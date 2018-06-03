@@ -1,0 +1,15 @@
+a {
+	text-decoration: none;
+}
+
+* {
+	outline-color: transparent;
+}
+
+:focus {
+	transition: outline-color .3s ease;
+	outline-width: 2px;
+}
+:active {
+	outline: none;
+}

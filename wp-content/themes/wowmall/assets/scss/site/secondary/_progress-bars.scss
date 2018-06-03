@@ -1,0 +1,35 @@
+.vc_progress_bar {
+	margin-bottom: 40px !important;
+	.vc_single_bar {
+		border-radius: 0;
+		height: 5px;
+		margin-bottom: 59px;
+		margin-top: 29px;
+		box-shadow: none;
+		background: #e4e4e4;
+		.vc_label {
+			padding: 0;
+			position: absolute;
+			bottom: 8px;
+			font-size: inherit;
+			left: 0;
+			max-width: 100%;
+			display: inline-flex;
+			.vc_label_inner {
+				min-width: 0;
+				white-space: nowrap;
+				overflow: hidden;
+				flex: 1 1 auto;
+				text-overflow: ellipsis;
+			}
+			&_units {
+				font-size: .8888888888888889rem;
+				font-weight: 700;
+				margin-left: 11px;
+			}
+		}
+		.vc_bar {
+			border-radius: 0;
+		}
+	}
+}

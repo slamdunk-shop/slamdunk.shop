@@ -1,0 +1,22 @@
+html {
+  height: 100%; }
+
+.woocommerce div.product form.cart div.quantity .qty,
+.woocommerce div.product div.quantity .qty, .woocommerce div.product form.cart div.quantity .qty,
+.woocommerce table.cart td .qty {
+  padding: 13px 17px 19px; }
+  .woocommerce div.product form.cart div.quantity .qty:focus,
+  .woocommerce div.product div.quantity .qty:focus, .woocommerce div.product form.cart div.quantity .qty:focus,
+  .woocommerce table.cart td .qty:focus {
+    padding-right: 0; }
+
+.wowmall-brands-carousel .swiper-slide {
+  height: auto; }
+
+.rev_slider_wrapper {
+  overflow: hidden !important; }
+
+img.swiper-lazy:not(.swiper-lazy-loaded) {
+  background: url(../images/ie-loader.gif) 50% no-repeat; }
+  img.swiper-lazy:not(.swiper-lazy-loaded).ie-lazy-small {
+    background-size: contain; }

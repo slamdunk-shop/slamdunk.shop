@@ -1,0 +1,42 @@
+.wpb_wrapper {
+	ul#menu-sitemap {
+		display: flex;
+		margin: 36px 0 29px;
+		flex-wrap: wrap;
+		> li {
+			flex: 1 0 100%;
+			margin: 0 0 40px;
+			@include media-breakpoint-up(md) {
+				flex: 1 0 50%;
+			}
+			@include media-breakpoint-up(lg) {
+				flex: 1 0 16.66%;
+			}
+			> a {
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: .05em;
+			}
+			> .sub-menu {
+				margin-top: 13px;
+			}
+		}
+		li {
+			padding: 0;
+			&:before {
+				display: none;
+			}
+		}
+		.sub-menu {
+			li {
+				margin-top: 8px;
+				a {
+					color: inherit;
+				}
+			}
+			.sub-menu {
+				margin-left: 30px;
+			}
+		}
+	}
+}

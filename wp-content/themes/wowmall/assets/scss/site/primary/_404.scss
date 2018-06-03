@@ -1,0 +1,54 @@
+body.error404 {
+	#page {
+		display: flex;
+		flex-direction: column;
+		#content {
+			display: flex;
+			flex-direction: column;
+			flex: 1 0 auto;
+			margin: 0;
+			#primary {
+				flex: 1 0 auto;
+				padding: 187px 0 207px;
+				background-position: 50%;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		}
+	}
+	.page-title-404 {
+		font-size: 10.55555555555556rem;
+		line-height: .95;
+		margin: 0;
+		letter-spacing: .06em;
+	}
+	.page-title {
+		color: #fff;
+	}
+	.error-404 {
+		text-align: center;
+	}
+	.page-content {
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 1.444444444444444rem;
+		line-height: 1.423076923076923;
+		font-weight: 700;
+		margin: 19px auto 0;
+		max-width: 600px;
+		letter-spacing: .056em;
+	}
+	.wowmall-search {
+		margin: 51px auto 0;
+		max-width: 548px;
+		form {
+			display: flex;
+			.search-field {
+				flex: 1 0 auto;
+				border: none;
+				padding: 5px 10px;
+				margin-right: 3px;
+			}
+		}
+	}
+}

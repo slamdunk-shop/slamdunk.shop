@@ -1,0 +1,52 @@
+.smile_icon_list {
+	.entry-content & {
+		> li {
+			&:before {
+				content: none !important;
+			}
+		}
+	}
+	li .icon_list_connector {
+		border-color: transparent;
+	}
+	&.with_bg  {
+		li .icon_list_icon {
+			background: none;
+		}
+	}
+	.contacts-list & {
+		&,
+		&.left {
+			li.icon_list_item {
+				margin: 0 0 27px !important;
+				min-height: inherit !important;
+				.icon_list_icon {
+					width: 1.5em;
+					height: auto;
+					line-height: 1.25;
+					text-align: left;
+				}
+				.icon_description {
+					display: block;
+					height: auto;
+					margin: 0 0 0 1.5em;
+					padding: 0;
+					.icon_description_text {
+						p {
+							margin-top: 3px;
+						}
+					}
+				}
+			}
+		}
+		[class^="myfont-"]:before,
+		[class*=" myfont-"]:before {
+			margin: 0;
+			width: auto;
+		}
+	}
+}
+
+div.wpcf7-validation-errors {
+	display: none !important;
+}

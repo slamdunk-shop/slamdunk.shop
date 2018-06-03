@@ -1,0 +1,102 @@
+ul, ol {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	.entry-content &,
+	.entry-summary &,
+	.wc-product-collapse #description & {
+		> li:not([class]) {
+			margin: 0 0 4px;
+			overflow: hidden;
+		}
+		ul,
+		ol {
+			margin: 0;
+			> li:not([class]) {
+				margin: 4px 0 0;
+			}
+		}
+	}
+}
+
+ul {
+	list-style: none;
+	.entry-content &,
+	.entry-summary &,
+	.wc-product-collapse #description & {
+		li:not([class]) {
+			padding: 0 0 0 19px;
+			position: relative;
+			&:before {
+				content: '—';
+				position: absolute;
+				left: 0;
+			}
+		}
+		ul {
+			margin: 0;
+			li:not([class]) {
+				padding: 0 0 0 11px;
+				&:before {
+					content: '-';
+				}
+			}
+		}
+		&.styled {
+			li[class],
+			li:not([class]) {
+				padding: 0 0 0 15px;
+				&:before {
+					content: '•';
+				}
+			}
+			ul {
+				li[class],
+				li:not([class]) {
+					padding: 0 0 0 15px;
+				}
+			}
+		}
+	}
+	&[role=tablist] {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		li[class],
+		li:not([class]) {
+			padding: 0;
+			margin: 0;
+			&:before {
+				content: none;
+			}
+		}
+	}
+}
+
+ol {
+	list-style: none;
+	.entry-content &,
+	.entry-summary &,
+	.wc-product-collapse #description & {
+		counter-reset: ordered-list;
+		> li {
+			&:before {
+				counter-increment: ordered-list;
+				content: counter(ordered-list, decimal-leading-zero) ". ";
+				padding-right: 2px;
+			}
+		}
+		ol {
+			padding:0;
+			margin-left: 26px;
+		}
+	}
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}

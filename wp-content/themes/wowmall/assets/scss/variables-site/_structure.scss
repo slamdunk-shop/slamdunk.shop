@@ -1,0 +1,19 @@
+$enable-flex: true;
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+
+$container-max-widths: (
+        sm: 588px,
+        md: 882px,
+        lg: 1176px,
+        xl: 1764px
+);
+$grid-breakpoints: (
+		xs: 0,
+		sm: 576px,
+		md: 768px,
+		lg: 992px,
+		xl: 1200px,
+		xxl: 1600px
+);
+$grid-gutter-width-base: 40px;

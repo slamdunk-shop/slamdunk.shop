@@ -1,0 +1,229 @@
+body .woocommerce-MyAccount-navigation-wrapper {
+  display: flex;
+  align-items: stretch; }
+body .woocommerce-MyAccount-navigation {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: .8888888888888889rem;
+  letter-spacing: .055em;
+  flex: 1 1 100%;
+  width: 100%;
+  margin: 18px 0 40px;
+  text-align: center; }
+  @media (min-width: 992px) {
+    body .woocommerce-MyAccount-navigation {
+      text-align: left;
+      margin: 18px 0  80px;
+      border-right: 1px solid #e4e4e4; } }
+  body .woocommerce-MyAccount-navigation ul {
+    padding: 0 0 0;
+    margin: -8px 0 -7px; }
+    body .woocommerce-MyAccount-navigation ul li {
+      padding: 12px 0 0;
+      margin: 0; }
+      body .woocommerce-MyAccount-navigation ul li:first-child {
+        padding: 0; }
+      body .woocommerce-MyAccount-navigation ul li:before {
+        content: none; }
+      body .woocommerce-MyAccount-navigation ul li:not(.is-active) a {
+        color: inherit; }
+@media (min-width: 992px) {
+  body .woocommerce .woocommerce-MyAccount-content {
+    padding: 3px 0 0 40px;
+    margin: 0 0 80px; } }
+body .woocommerce .woocommerce-MyAccount-content h3 {
+  margin-bottom: 16px;
+  text-align: center; }
+  @media (min-width: 992px) {
+    body .woocommerce .woocommerce-MyAccount-content h3 {
+      text-align: left; } }
+  body .woocommerce .woocommerce-MyAccount-content h3:first-child {
+    margin-top: 5px; }
+body .woocommerce .woocommerce-MyAccount-content table.account-orders-table,
+body .woocommerce .woocommerce-MyAccount-content table.order_details,
+body .woocommerce .woocommerce-MyAccount-content table.customer_details,
+body .woocommerce .woocommerce-MyAccount-content table.order_address,
+body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads {
+  margin: 16px 0 30px;
+  font: inherit; }
+  body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td,
+  body .woocommerce .woocommerce-MyAccount-content table.order_details tr td,
+  body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td,
+  body .woocommerce .woocommerce-MyAccount-content table.order_address tr td,
+  body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td {
+    padding: 6px 8px 7px; }
+    body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td .amount,
+    body .woocommerce .woocommerce-MyAccount-content table.order_details tr td .amount,
+    body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td .amount,
+    body .woocommerce .woocommerce-MyAccount-content table.order_address tr td .amount,
+    body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td .amount {
+      color: inherit; }
+  @media (min-width: 768px) {
+    body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th,
+    body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td,
+    body .woocommerce .woocommerce-MyAccount-content table.order_details tr th,
+    body .woocommerce .woocommerce-MyAccount-content table.order_details tr td,
+    body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th,
+    body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td,
+    body .woocommerce .woocommerce-MyAccount-content table.order_address tr th,
+    body .woocommerce .woocommerce-MyAccount-content table.order_address tr td,
+    body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th,
+    body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td {
+      padding-left: 0; }
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th:last-child,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td:last-child {
+        padding-right: 0; }
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th.order-number, body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th.order-date, body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th.order-status,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td.order-number,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td.order-date,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td.order-status {
+        width: 23.5%; }
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th.download-file,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td.download-file {
+        width: 38%; }
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th.download-remaining,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td.download-remaining {
+        width: 27%; }
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr th.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.account-orders-table tr td.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr th.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.order_details tr td.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr th.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.customer_details tr td.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr th.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.order_address tr td.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr th.download-actions,
+      body .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-downloads tr td.download-actions {
+        text-align: right; } }
+body .woocommerce .woocommerce-MyAccount-content table.order_details {
+  border-bottom: none; }
+body .woocommerce .woocommerce-MyAccount-content table.customer_details {
+  margin-bottom: 50px; }
+body .woocommerce .woocommerce-MyAccount-content table.order_address th,
+body .woocommerce .woocommerce-MyAccount-content table.order_address td.product-name,
+body .woocommerce .woocommerce-MyAccount-content table.customer_details th,
+body .woocommerce .woocommerce-MyAccount-content table.customer_details td.product-name,
+body .woocommerce .woocommerce-MyAccount-content table.order_details th,
+body .woocommerce .woocommerce-MyAccount-content table.order_details td.product-name {
+  width: 38%; }
+body .woocommerce .woocommerce-MyAccount-content table.order_address td,
+body .woocommerce .woocommerce-MyAccount-content table.customer_details td,
+body .woocommerce .woocommerce-MyAccount-content table.order_details td {
+  width: 62%; }
+body .woocommerce .woocommerce-MyAccount-content table.order_address:last-child {
+  margin-bottom: 0; }
+body .woocommerce .woocommerce-MyAccount-content .woocommerce-Pagination .woocommerce-Button {
+  margin-right: 7px; }
+body .woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm {
+  margin: -15px 0 0; }
+  body .woocommerce .woocommerce-MyAccount-content .woocommerce-EditAccountForm .woocommerce-form-row {
+    position: relative; }
+body .woocommerce-Address-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  body .woocommerce-Address-title a.edit {
+    margin: 27px 0 0;
+    font-size: .7777777777777778rem;
+    color: inherit; }
+    body .woocommerce-Address-title a.edit:before {
+      content: '\e834';
+      font-family: 'myfont';
+      font-size: 1rem;
+      margin-right: 11px;
+      line-height: 1; }
+body .woocommerce-Address address,
+body .woocommerce-Address ul {
+  margin: 0; }
+body .woocommerce table.woocommerce-MyAccount-downloads {
+  margin-top: 1em; }
+body .woocommerce #customer_login {
+  margin-top: 37px;
+  margin-bottom: 55px; }
+  body .woocommerce #customer_login .tab-content {
+    padding: 25px 0 0; }
+  body .woocommerce #customer_login form .button-row {
+    margin-top: 30px; }
+  body .woocommerce #customer_login form .woocommerce-LostPassword {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.page-my-account .form-row {
+  position: relative; }
+
+@media (max-width: 767px) {
+  .woocommerce .order_details li {
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-right: none;
+    border-bottom: 1px dashed #d3ced2; }
+    .woocommerce .order_details li:last-of-type {
+      padding-bottom: 0;
+      margin-bottom: 0; } }
+.woocommerce .order_details li:before {
+  content: none; }
+
+#wc-lost-password-wrapper {
+  margin-bottom: 77px; }
+
+.woocommerce-order-received .woocommerce-customer-details {
+  padding: 0 0 60px; }
+.woocommerce-order-received .shop_table th,
+.woocommerce-order-received .shop_table td {
+  width: 50%; }
+
+/*# sourceMappingURL=account.css.map */

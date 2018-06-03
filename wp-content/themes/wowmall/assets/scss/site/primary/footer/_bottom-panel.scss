@@ -1,0 +1,151 @@
+#footer-bottom-panel {
+	position: relative;
+	clear: both;
+	@include media-breakpoint-down( sm ) {
+		padding: 25px 15px 0;
+		margin: 0 -15px;
+	}
+	@include media-breakpoint-up( md ) {
+		margin: 0 -60px;
+		padding: 0 60px;
+	}
+	.wowmall-to-top {
+		&:before {
+			font-family: 'myfont';
+			content: '\e828';
+			font-size: .7777777777777778rem;
+		}
+		&:hover {
+			color: #fff !important;
+			&:before {
+				color: inherit;
+			}
+		}
+		@include media-breakpoint-up( md ) {
+			position: absolute;
+			bottom: 50%;
+			right: 27px;
+			transform: translate(0, 50%);
+			width: 40px;
+			height: 40px;
+			border: 2px solid;
+			border-radius: 1000px;
+			transition: background-color .3s ease, color .3s ease;
+			font-size: 0;
+			line-height: 0;
+			&:before {
+				color: #a3a3a3;
+				position: absolute;
+				line-height: 0;
+				margin: 0;
+				left: 0;
+				right: 0;
+				top: 50%;
+				text-align: center;
+				transition: color .3s ease;
+			}
+			&:not(:hover) {
+				background-color: transparent;
+			}
+		}
+		@include media-breakpoint-down( sm ) {
+			display: block;
+			text-align: center;
+			text-transform: uppercase;
+			color: #fff;
+			font-size: .8888888888888889rem;
+			font-weight: 700;
+			padding: 9px 0;
+			letter-spacing: .05em;
+			margin: 0 -15px;
+			@include media-breakpoint-up(md) {
+				margin: 0 -60px;
+			}
+			&:before {
+				margin-right: 8px;
+				vertical-align: text-top;
+				display: inline-block;
+			}
+		}
+	}
+	.footer-bottom-panel-row {
+		@include media-breakpoint-up( lg ) {
+			display: flex;
+			align-items: center;
+		}
+		.logo {
+			margin-right: 19px;
+		}
+	}
+	a {
+		color: #fff;
+		&.wowmall-privacy-link {
+			&.at_start {
+				@include media-breakpoint-up( xl ) {
+					&:after {
+						content: '';
+						height: .8571428571428571em;
+						width: 1px;
+						display: inline-block;
+						vertical-align: baseline;
+						background: #444;
+						margin: 0 11px 0 16px;
+					}
+				}
+			}
+			&.at_end {
+				@include media-breakpoint-up( xl ) {
+					&:before {
+						content: '';
+						height: .8571428571428571em;
+						width: 1px;
+						display: inline-block;
+						vertical-align: baseline;
+						background: #444;
+						margin: 0 16px 0 12px;
+					}
+				}
+			}
+		}
+	}
+	.footer-text {
+		@include media-breakpoint-down( sm ) {
+			letter-spacing: -.01em;
+		}
+		@include media-breakpoint-up( lg ) {
+			margin-right: 33px;
+		}
+		padding: 10px 0;
+	}
+	img.wowmall-payment-methods {
+		margin: 25px 0 35px;
+		@include media-breakpoint-up( sm ) {
+			margin: 10px 0;
+		}
+	}
+	&.footer-bottom-panel-2 {
+		@include media-breakpoint-up( md ) {
+			.container + & {
+				margin-top: 18px;
+			}
+		}
+		.footer-bottom-panel-row {
+			justify-content: space-between;
+			#colophon.site-footer-3 & {
+				flex-wrap: wrap;
+				justify-content: center;
+				.footer-text {
+					width: 100%;
+					flex: 1 1 100%;
+					padding: 33px 0 15px;
+				}
+				img.wowmall-payment-methods {
+					margin-bottom: 39px;
+				}
+			}
+		}
+	}
+	&.footer-bottom-panel-3 {
+		padding: 5px 0;
+	}
+}
