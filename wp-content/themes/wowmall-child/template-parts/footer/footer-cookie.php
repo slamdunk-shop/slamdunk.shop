@@ -15,4 +15,56 @@
             });
         });
     </script>
+    <style>
+        .footer-cookie {
+            position: fixed;
+            width: 386px;
+            min-height: 283px;
+            left: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            padding: 25px;
+        }
+        .footer-cookie--message {
+            position: relative;
+            display: inline-block;
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 18px;
+            color: #FFFFFF;
+
+        }
+        .footer-cookie--message a {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+        .footer-cookie--button {
+            display: inline-block;
+            margin-top: 25px;
+            width: 100%;
+            height: 47px;
+            background: #FC6000;
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: bold;
+            line-height: normal;
+            font-size: 18px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        @media (max-width: 425px) {
+            .footer-cookie {
+                width: 100%;
+            }
+            .footer-cookie--button {
+                width: 166px;
+                display: block;
+                margin: 25px auto 0;
+            }
+        }
+    </style>
 <?endif;?>
