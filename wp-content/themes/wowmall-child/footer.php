@@ -17,6 +17,11 @@
 		<?php wowmall_footer(); ?>
 
 		<?php wp_footer(); ?>
+
+        <?php
+        // Блок cookie для всех разрешений
+        get_template_part( 'template-parts/footer/footer-cookie');
+        ?>
 		<!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
     (function (d, w, c) {
