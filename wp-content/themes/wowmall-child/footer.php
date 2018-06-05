@@ -20,7 +20,7 @@
 
         <?php
         // Блок cookie для всех разрешений
-        get_template_part( 'template-parts/footer/footer-cookie');
+        //get_template_part( 'template-parts/footer/footer-cookie');
         ?>
 		<!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
