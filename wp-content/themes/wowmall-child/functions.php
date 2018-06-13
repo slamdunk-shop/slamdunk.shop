@@ -43,7 +43,7 @@ function custom_override_checkout_fields( $fields ) {
     unset($fields['billing']['billing_postcode']);// индекс
     unset($fields['billing']['billing_address_2']); //адрес строка 2
     unset($fields['account']['account_username']);// аккаунт
-    unset($fields['billing']['billing_email']);//
+    //unset($fields['billing']['billing_email']);//
     unset($fields['account']['account_password']);//
     unset($fields['account']['account_password-2']);//
     return $fields;
