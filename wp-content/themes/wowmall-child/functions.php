@@ -31,7 +31,7 @@ add_action( 'after_setup_theme', 'slamdunk_theme_setup' );
 
 
 /**
- * Кастомные фунцкии их сновной темы
+ * Кастомные фунцкии из сновной темы
  */
 
 // Our hooked in function - $fields is passed via the filter!
@@ -57,10 +57,10 @@ function custom_override_default_address_fields( $address_fields ) {
     $address_fields['company']['required'] = false; // Адрес
     $address_fields['postcode']['required'] = false; // Индекс
     $address_fields['address_2']['required'] = false; // Населённый пункт
-    $address_fields['address_1']['required'] = false; // адрес 1
+    //$address_fields['address_1']['required'] = false; // адрес 1
 
     return $address_fields;
 }
 
-/* END  Кастомные фунцкии их сновной темы */
+/* END  Кастомные фунцкии из сновной темы */
 
